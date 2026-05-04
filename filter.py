@@ -2,45 +2,48 @@ import asyncio
 import aiohttp
 import time
 
-INPUT_M3U_URL = "https://iptv-org.github.io/iptv/index.m3u"
+INPUT_M3U_URL = "https://iptv-org.github.io/iptv/languages/tur.m3u"
+
 OUTPUT_FILE = "filtered.m3u"
 README_FILE = "README.md"
 
-TIMEOUT = aiohttp.ClientTimeout(total=8)
+TIMEOUT = aiohttp.ClientTimeout(total=10)
 CONCURRENT_LIMIT = 80
-MAX_RESPONSE_TIME = 1.5  # saniye
+
+MAX_RESPONSE_TIME = 4.0
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
 
-# --- M3U indir ---
+# -----------------------------
+# FETCH M3U
+# -----------------------------
 async def fetch_m3u(session):
     async with session.get(INPUT_M3U_URL) as resp:
         resp.raise_for_status()
         text = await resp.text()
         return text.splitlines()
 
-# --- parse ---
+# -----------------------------
+# PARSE
+# -----------------------------
 def parse_m3u(lines):
     pairs = []
     i = 0
 
     while i < len(lines):
-        line = lines[i]
-        if line.startswith("#EXTINF") and i + 1 < len(lines):
-            pairs.append((line, lines[i + 1]))
+        if lines[i].startswith("#EXTINF") and i + 1 < len(lines):
+            pairs.append((lines[i], lines[i + 1]))
             i += 2
         else:
             i += 1
 
     return pairs
 
-# --- TR filtresi ---
-def is_tr_channel(extinf):
-    return 'tvg-country="TR"' in extinf or 'group-title="Turkey"' in extinf
-
-# --- HLS segment test ---
+# -----------------------------
+# HLS CHECK (soft)
+# -----------------------------
 async def check_hls(session, url):
     try:
         async with session.get(url, headers=HEADERS) as resp:
@@ -49,26 +52,23 @@ async def check_hls(session, url):
 
             text = await resp.text()
 
-            # ilk segmenti bul
             for line in text.splitlines():
                 if line and not line.startswith("#"):
-                    segment_url = line
+                    segment = line.strip()
                     break
             else:
                 return False
 
-        # segment çek
-        async with session.get(segment_url, headers=HEADERS) as seg:
+        async with session.get(segment, headers=HEADERS) as seg:
             return seg.status == 200
 
     except:
-        return False
+        return True  # soft fail
 
-# --- stream test ---
+# -----------------------------
+# STREAM CHECK
+# -----------------------------
 async def check_stream(session, sem, extinf, url):
-    if not is_tr_channel(extinf):
-        return None
-
     async with sem:
         start = time.perf_counter()
 
@@ -82,18 +82,23 @@ async def check_stream(session, sem, extinf, url):
                 if elapsed > MAX_RESPONSE_TIME:
                     return None
 
-                # HLS kontrol
+                # HLS validation (soft)
                 if ".m3u8" in url:
-                    ok = await check_hls(session, url)
-                    if not ok:
-                        return None
+                    try:
+                        ok = await check_hls(session, url)
+                        if not ok:
+                            return None
+                    except:
+                        pass
 
                 return (extinf, url, elapsed)
 
         except:
             return None
 
-# --- filtre ---
+# -----------------------------
+# FILTER
+# -----------------------------
 async def filter_streams(session, pairs):
     sem = asyncio.Semaphore(CONCURRENT_LIMIT)
 
@@ -105,7 +110,9 @@ async def filter_streams(session, pairs):
     results = await asyncio.gather(*tasks)
     return [r for r in results if r]
 
-# --- kaydet ---
+# -----------------------------
+# SAVE M3U
+# -----------------------------
 def save_m3u(pairs):
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
@@ -113,37 +120,53 @@ def save_m3u(pairs):
             f.write(extinf + "\n")
             f.write(url + "\n")
 
-# --- README güncelle ---
-def update_readme(count, avg_speed):
-    content = f"""# IPTV Filtered List
+# -----------------------------
+# README
+# -----------------------------
+def update_readme(results):
+    count = len(results)
+    avg = sum(r[2] for r in results) / count if count else 0
 
-## 📊 Güncel İstatistikler
+    content = f"""# 🇹🇷 Turkish IPTV Filtered List
 
-- ✅ Çalışan kanal sayısı: **{count}**
-- ⚡ Ortalama yanıt süresi: **{avg_speed:.2f} sn**
+## 📊 Stats
 
-## 🔄 Otomatik Güncelleme
-Bu liste her gün GitHub Actions ile güncellenir.
+- ✅ Working streams: **{count}**
+- ⚡ Avg response time: **{avg:.2f}s**
+
+## 🔄 Auto Update
+Updated daily via GitHub Actions.
+
+## 📡 Source
+- iptv-org tur.m3u filtered with live validation
 """
 
     with open(README_FILE, "w", encoding="utf-8") as f:
         f.write(content)
 
-# --- main ---
+# -----------------------------
+# MAIN
+# -----------------------------
 async def main():
     async with aiohttp.ClientSession(timeout=TIMEOUT) as session:
+
+        print("📥 Turkish playlist indiriliyor...")
         lines = await fetch_m3u(session)
+
+        print("🔍 Parse ediliyor...")
         pairs = parse_m3u(lines)
 
+        print(f"📺 Toplam TR kanal: {len(pairs)}")
+
+        print("⚙️ Test ediliyor...")
         results = await filter_streams(session, pairs)
 
-        if results:
-            avg_speed = sum(r[2] for r in results) / len(results)
-        else:
-            avg_speed = 0
+        print(f"✅ Çalışan: {len(results)}")
 
         save_m3u(results)
-        update_readme(len(results), avg_speed)
+        update_readme(results)
+
+        print("🎉 Bitti")
 
 if __name__ == "__main__":
     asyncio.run(main())
