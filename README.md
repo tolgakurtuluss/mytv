@@ -3,14 +3,15 @@
 ## 📊 Stats
 
 - 📥 Input streams: **863**
-- ✅ Working streams: **309**
-- ⚡ Avg response time: **0.56s**
+- ✅ Working streams: **294**
+- ⚡ Avg response time: **0.53s**
 
-## ⚙️ Sources
-Loaded from `sources.txt`
-
-## 🔄 Pipeline
+## ⚙️ Features
 - Multi-source merge
 - Duplicate removal
 - Speed filtering (< 4.0s)
-- HLS validation (soft)
+- HLS validation (soft fail)
+- Alphabetical sorting (A → Z)
+
+## 🔄 Sources
+Loaded from `sources.txt`
