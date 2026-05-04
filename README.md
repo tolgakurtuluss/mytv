@@ -1,9 +1,12 @@
-# IPTV Filtered List
+# 🇹🇷 Turkish IPTV Filtered List
 
-## 📊 Güncel İstatistikler
+## 📊 Stats
 
-- ✅ Çalışan kanal sayısı: **0**
-- ⚡ Ortalama yanıt süresi: **0.00 sn**
+- ✅ Working streams: **119**
+- ⚡ Avg response time: **1.15s**
 
-## 🔄 Otomatik Güncelleme
-Bu liste her gün GitHub Actions ile güncellenir.
+## 🔄 Auto Update
+Updated daily via GitHub Actions.
+
+## 📡 Source
+- iptv-org tur.m3u filtered with live validation
