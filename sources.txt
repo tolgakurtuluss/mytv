@@ -1,0 +1,3 @@
+https://iptv-org.github.io/iptv/languages/tur.m3u
+https://raw.githubusercontent.com/hayatiptv/iptv/master/index.m3u
+https://raw.githubusercontent.com/hayatiptv/iptv/refs/heads/master/TRDECesitlikanallar.m3u
