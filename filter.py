@@ -18,10 +18,14 @@ HEADERS = {"User-Agent": "Mozilla/5.0"}
 # -----------------------------
 def load_sources():
     with open(SOURCE_FILE, "r", encoding="utf-8") as f:
-        return [line.strip() for line in f if line.strip() and not line.startswith("#")]
+        return [
+            line.strip()
+            for line in f
+            if line.strip() and not line.startswith("#")
+        ]
 
 # -----------------------------
-# FETCH
+# FETCH M3U
 # -----------------------------
 async def fetch_m3u(session, url):
     async with session.get(url) as resp:
@@ -37,7 +41,9 @@ def parse_m3u(lines):
 
     while i < len(lines):
         if lines[i].startswith("#EXTINF") and i + 1 < len(lines):
-            pairs.append((lines[i].strip(), lines[i + 1].strip()))
+            extinf = lines[i].strip()
+            url = lines[i + 1].strip()
+            pairs.append((extinf, url))
             i += 2
         else:
             i += 1
@@ -59,7 +65,15 @@ def dedup(pairs):
     return out
 
 # -----------------------------
-# HLS CHECK
+# CHANNEL NAME
+# -----------------------------
+def extract_name(extinf):
+    if "," in extinf:
+        return extinf.split(",")[-1].strip()
+    return extinf.strip()
+
+# -----------------------------
+# HLS CHECK (soft)
 # -----------------------------
 async def check_hls(session, url):
     try:
@@ -69,18 +83,20 @@ async def check_hls(session, url):
 
             text = await resp.text()
 
+            segment = None
             for line in text.splitlines():
                 if line and not line.startswith("#"):
-                    seg = line.strip()
+                    segment = line.strip()
                     break
-            else:
+
+            if not segment:
                 return False
 
-        async with session.get(seg, headers=HEADERS) as r:
+        async with session.get(segment, headers=HEADERS) as r:
             return r.status == 200
 
     except:
-        return True
+        return True  # soft fail
 
 # -----------------------------
 # STREAM CHECK
@@ -127,12 +143,22 @@ async def filter_streams(session, pairs):
     return [r for r in results if r]
 
 # -----------------------------
-# SAVE
+# SAVE (ALPHABETICAL SORT)
 # -----------------------------
 def save_m3u(pairs):
+    enriched = []
+
+    for extinf, url, speed in pairs:
+        name = extract_name(extinf)
+        enriched.append((name.lower(), extinf, url, speed))
+
+    # 🔤 A → Z SORT
+    enriched.sort(key=lambda x: x[0])
+
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for extinf, url, _ in pairs:
+
+        for _, extinf, url, _ in enriched:
             f.write(extinf + "\n")
             f.write(url + "\n")
 
@@ -151,14 +177,15 @@ def update_readme(results, total_input):
 - ✅ Working streams: **{count}**
 - ⚡ Avg response time: **{avg:.2f}s**
 
-## ⚙️ Sources
-Loaded from `sources.txt`
-
-## 🔄 Pipeline
+## ⚙️ Features
 - Multi-source merge
 - Duplicate removal
 - Speed filtering (< {MAX_RESPONSE_TIME}s)
-- HLS validation (soft)
+- HLS validation (soft fail)
+- Alphabetical sorting (A → Z)
+
+## 🔄 Sources
+Loaded from `sources.txt`
 """
 
     with open(README_FILE, "w", encoding="utf-8") as f:
@@ -181,12 +208,12 @@ async def main():
             lines = await fetch_m3u(session, url)
             all_pairs.extend(parse_m3u(lines))
 
-        print(f"📺 Raw streams: {len(all_pairs)}")
+        print(f"📺 Raw: {len(all_pairs)}")
 
         print("🧹 Dedup...")
         all_pairs = dedup(all_pairs)
 
-        print(f"📺 Unique streams: {len(all_pairs)}")
+        print(f"📺 Unique: {len(all_pairs)}")
 
         print("⚙️ Filtering...")
         results = await filter_streams(session, all_pairs)
