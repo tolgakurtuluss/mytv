@@ -1,12 +1,16 @@
-# 🇹🇷 Turkish IPTV Filtered List
+# 📺 IPTV Filter Engine
 
 ## 📊 Stats
 
-- ✅ Working streams: **119**
-- ⚡ Avg response time: **1.15s**
+- 📥 Input streams: **863**
+- ✅ Working streams: **309**
+- ⚡ Avg response time: **0.56s**
 
-## 🔄 Auto Update
-Updated daily via GitHub Actions.
+## ⚙️ Sources
+Loaded from `sources.txt`
 
-## 📡 Source
-- iptv-org tur.m3u filtered with live validation
+## 🔄 Pipeline
+- Multi-source merge
+- Duplicate removal
+- Speed filtering (< 4.0s)
+- HLS validation (soft)
