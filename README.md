@@ -2,9 +2,9 @@
 
 ## 📊 Stats
 
-- 📥 Input streams: **863**
-- ✅ Working streams: **304**
-- ⚡ Avg response time: **0.71s**
+- 📥 Input streams: **1547**
+- ✅ Working streams: **547**
+- ⚡ Avg response time: **0.54s**
 
 ## ⚙️ Features
 - Multi-source merge
