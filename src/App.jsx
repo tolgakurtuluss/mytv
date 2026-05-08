@@ -34,6 +34,7 @@ export default function App() {
   const [activeChannel, setActiveChannel] = useState(null);
   const [refreshing, setRefreshing]   = useState(false);
   const [toasts, setToasts]           = useState([]);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const { addToast }                  = useToast(setToasts);
 
   const [favorites, setFavorites] = useState(() => {
@@ -85,15 +86,35 @@ export default function App() {
     });
   }, []);
 
+  const handleSelectChannel = useCallback((channel) => {
+    setActiveChannel(channel);
+    // Close sidebar on mobile after selection
+    if (window.innerWidth <= 768) {
+      setIsSidebarOpen(false);
+    }
+  }, []);
+
   return (
-    <div className="app">
-      <Header stats={stats} refreshing={refreshing} onRefresh={handleRefresh} />
+    <div className={`app ${isSidebarOpen ? 'sidebar-open' : ''}`}>
+      <Header 
+        stats={stats} 
+        refreshing={refreshing} 
+        onRefresh={handleRefresh} 
+        toggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)}
+        isSidebarOpen={isSidebarOpen}
+      />
       <Sidebar
+        isOpen={isSidebarOpen}
         channels={channels}
         favorites={favorites}
         activeChannel={activeChannel}
-        onSelect={setActiveChannel}
+        onSelect={handleSelectChannel}
         onToggleFav={handleToggleFav}
+        onClose={() => setIsSidebarOpen(false)}
+      />
+      <div 
+        className={`mobile-overlay ${isSidebarOpen ? 'show' : ''}`} 
+        onClick={() => setIsSidebarOpen(false)} 
       />
       <main className="main">
         <VideoPlayer channel={activeChannel} />

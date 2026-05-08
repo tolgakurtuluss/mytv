@@ -3,14 +3,14 @@
 ## 📊 Stats
 
 - 📥 Input streams: **1862**
-- ✅ Working streams: **999**
-- ⚡ Avg response time: **0.48s**
+- ✅ Working streams: **691**
+- ⚡ Avg response time: **0.50s**
 
 ## ⚙️ Features
 - Multi-source merge
 - Duplicate removal
-- Speed filtering (< 3.0s)
-- HLS validation (strict)
+- Speed filtering (< 4.0s)
+- HLS validation (soft fail)
 - Alphabetical sorting (A → Z)
 
 ## 🔄 Sources

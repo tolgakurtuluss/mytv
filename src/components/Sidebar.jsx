@@ -21,7 +21,7 @@ function ChannelLogo({ channel }) {
   );
 }
 
-export default function Sidebar({ channels, favorites, activeChannel, onSelect, onToggleFav }) {
+export default function Sidebar({ isOpen, channels, favorites, activeChannel, onSelect, onToggleFav }) {
   const [search, setSearch] = useState('');
   const [tab, setTab] = useState('all');
 
@@ -32,7 +32,7 @@ export default function Sidebar({ channels, favorites, activeChannel, onSelect, 
   });
 
   return (
-    <aside className="sidebar">
+    <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
       <div className="sidebar-search">
         <div className="search-wrapper">
           <Search size={15} className="search-icon" />
