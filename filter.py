@@ -74,11 +74,11 @@ def extract_name(extinf):
     return extinf.strip()
 
 # -----------------------------
-# HLS CHECK (soft)
+# HLS CHECK (strict)
 # -----------------------------
 async def check_hls(session, url):
     try:
-        async with session.get(url, headers=HEADERS) as resp:
+        async with session.get(url, headers=HEADERS, timeout=5) as resp:
             if resp.status != 200:
                 return False
 
@@ -93,11 +93,16 @@ async def check_hls(session, url):
             if not segment:
                 return False
 
-        async with session.get(segment, headers=HEADERS) as r:
+            # Segment URL tam URL değilse (relative ise) ana URL ile birleştir
+            if not segment.startswith("http"):
+                from urllib.parse import urljoin
+                segment = urljoin(url, segment)
+
+        async with session.get(segment, headers=HEADERS, timeout=5) as r:
             return r.status == 200
 
     except:
-        return True  # soft fail
+        return False  # Hata varsa kanal çalışmıyordur, listeye alma
 
 # -----------------------------
 # STREAM CHECK
