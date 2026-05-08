@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import asyncio
 import aiohttp
 import time
@@ -463,4 +462,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
->>>>>>> de844d210a422bf4cd611e27f11e5a3090aa7161
