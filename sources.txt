@@ -3,4 +3,8 @@ https://raw.githubusercontent.com/hayatiptv/iptv/master/index.m3u
 https://raw.githubusercontent.com/hayatiptv/iptv/refs/heads/master/TRDECesitlikanallar.m3u
 https://raw.githubusercontent.com/Yusufdkci/iptv/main/liste.m3u
 https://raw.githubusercontent.com/edanuralkan2346-boop/kanallar.m3u/refs/heads/main/t%C3%BCrkkanallar%C4%B1.m3u
+<<<<<<< HEAD
 https://raw.githubusercontent.com/tamersariii/Turkeym3uList/refs/heads/main/Turkiye.m3u
+=======
+https://raw.githubusercontent.com/tamersariii/Turkeym3uList/refs/heads/main/Turkiye.m3u
+>>>>>>> de844d210a422bf4cd611e27f11e5a3090aa7161

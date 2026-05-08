@@ -32,4 +32,8 @@ jobs:
           git add filtered.m3u README.md
 
           git commit -m "Auto update IPTV list" || echo "No changes"
+<<<<<<< HEAD
           git push
+=======
+          git push
+>>>>>>> de844d210a422bf4cd611e27f11e5a3090aa7161
