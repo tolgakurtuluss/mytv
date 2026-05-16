@@ -88,7 +88,7 @@ async def check_hls(session, url):
         # Fetch the HLS playlist
         async with session.get(url, headers=HEADERS, timeout=HLS_SEGMENT_CHECK_TIMEOUT) as resp:
             if resp.status != 200:
-                logging.debug(f"HLS playlist check failed for {url}: Status {resp.status}")
+                logging.info(f"HLS playlist check failed for {url} with status {resp.status}") # Covers 301, 403, etc.
                 return False
             
             text = await resp.text()
@@ -101,7 +101,7 @@ async def check_hls(session, url):
                     break
             
             if not segment:
-                logging.debug(f"No segments found in HLS playlist for {url}")
+                logging.info(f"No segments found in HLS playlist for {url}")
                 return False
             # Segment URL tam URL değilse (relative ise) ana URL ile birleştir
             if not segment.startswith("http"):
@@ -109,8 +109,8 @@ async def check_hls(session, url):
             
             # Fetch the first segment
             async with session.get(segment, headers=HEADERS, timeout=HLS_SEGMENT_CHECK_TIMEOUT) as r:
-                if r.status != 200:
-                    logging.debug(f"HLS segment check failed for {segment} (from {url}): Status {r.status}")
+                if r.status != 200: # Covers 301, 403, etc.
+                    logging.info(f"HLS segment check failed for {segment} (from {url}) with status {r.status}")
                     return False
                 return True
 
@@ -138,8 +138,13 @@ async def check_stream(session, sem, extinf, url):
         try:
             # Use the session's default timeout (GLOBAL_CLIENT_TIMEOUT) for the initial request
             async with session.get(url, headers=HEADERS) as resp:
-                if resp.status != 200:
-                    logging.info(f"Stream check failed for {url}: Status {resp.status}")
+                final_url = str(resp.url)
+                redirect_info = ""
+                if resp.history:
+                    redirect_info = f" (redirected from {url} to {final_url})"
+
+                if resp.status != 200: # Covers 301, 403, etc.
+                    logging.info(f"Stream check failed for {final_url} with status {resp.status}{redirect_info}")
                     return None
                 elapsed = time.perf_counter() - start
                 if elapsed > MAX_RESPONSE_TIME:
@@ -150,17 +155,17 @@ async def check_stream(session, sem, extinf, url):
                     if not await check_hls(session, url):
                         logging.info(f"HLS validation failed for {url}")
                         return None
-                
-                logging.info(f"Stream {url} is working. Response time: {elapsed:.2f}s")
+
+                logging.info(f"Stream {final_url} is working. Response time: {elapsed:.2f}s{redirect_info}")
                 return (extinf, url, elapsed)
         except asyncio.TimeoutError:
-            logging.info(f"Stream check timed out for {url} after {GLOBAL_CLIENT_TIMEOUT.total}s")
+            logging.info(f"Stream check timed out for {url} after {GLOBAL_CLIENT_TIMEOUT.total}s (initial URL)")
             return None
         except aiohttp.ClientError as e:
-            logging.info(f"Stream client error for {url}: {e}")
+            logging.info(f"Stream client error for {url} (initial URL): {e}")
             return None
         except Exception as e:
-            logging.error(f"Unexpected error during stream check for {url}: {e}")
+            logging.error(f"Unexpected error during stream check for {url} (initial URL): {e}")
             return None
 
 # -----------------------------
