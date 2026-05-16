@@ -73,9 +73,18 @@ def dedup(pairs):
 # CHANNEL NAME
 # -----------------------------
 def extract_name(extinf):
+    name = ""
     if "," in extinf:
-        return extinf.split(",")[-1].strip()
-    return extinf.strip()
+        name = extinf.split(",")[-1].strip()
+    else:
+        name = extinf.strip()
+
+    # Handle parenthesis truncation
+    if "(" in name:
+        name = name.split("(", 1)[0].strip()
+
+    # Convert to uppercase
+    return name.upper()
 
 # -----------------------------
 # HLS CHECK (strict)
@@ -188,13 +197,23 @@ async def filter_streams(session, pairs):
 def save_m3u(pairs):
     enriched = []
 
-    for extinf, url, speed in pairs:
-        name = extract_name(extinf)
-        enriched.append((name.lower(), extinf, url, speed))
+    for original_extinf, url, speed in pairs:
+        # Get the modified channel name (uppercase and truncated)
+        modified_channel_name = extract_name(original_extinf)
+
+        # Reconstruct the extinf line with the modified channel name
+        last_comma_index = original_extinf.rfind(',')
+        if last_comma_index != -1:
+            # Replace the old channel name with the modified one
+            new_extinf = original_extinf[:last_comma_index + 1] + modified_channel_name
+        else:
+            # If no comma, the whole extinf is the name, so just use the modified name
+            new_extinf = modified_channel_name
+
+        enriched.append((modified_channel_name.lower(), new_extinf, url, speed))
 
     # 🔤 A → Z SORT
     enriched.sort(key=lambda x: x[0])
-
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
 
