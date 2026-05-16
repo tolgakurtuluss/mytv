@@ -4,3 +4,6 @@ https://raw.githubusercontent.com/hayatiptv/iptv/refs/heads/master/TRDECesitlika
 https://raw.githubusercontent.com/Yusufdkci/iptv/main/liste.m3u
 https://raw.githubusercontent.com/edanuralkan2346-boop/kanallar.m3u/refs/heads/main/t%C3%BCrkkanallar%C4%B1.m3u
 https://raw.githubusercontent.com/tamersariii/Turkeym3uList/refs/heads/main/Turkiye.m3u
+https://download2432.mediafire.com/iwfa86iehe0gmj9L9XoWQAZ35vP-2wDa-nSiGSGO06-2vGpdNejdfq3B-M1TtT7FJabftvLYzfUMs6kiwQtwKfsnUeHd1pl5s1DIyfhAFKYMPKso3Qe3wk9OUk3_Q-BZIpy8mrlrMwTTVao41u3IIwfMm7_IX9qDRtQne6gvHZ5ueg/g6opwz9v4vjxul3/ByteFixRepairsTurkIPTV.m3u
+https://streams.uzunmuhalefet.com/lists/tr.m3u
+https://raw.githubusercontent.com/itasli/TURKTV/refs/heads/master/index.m3u
