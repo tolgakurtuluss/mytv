@@ -215,7 +215,7 @@ def save_m3u(pairs):
     # 🔤 A → Z SORT
     enriched.sort(key=lambda x: x[0])
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U x-tvg-url="http://epg.siptveu.com/epg/guide-turkey.xml.gz" + "\n")
+        f.write('#EXTM3U x-tvg-url="http://epg.siptveu.com/epg/guide-turkey.xml.gz"' + "\n")
 
         for _, extinf, url, _ in enriched:
             f.write(extinf + "\n")
