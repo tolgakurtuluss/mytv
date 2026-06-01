@@ -1,10 +1,16 @@
-#EXTM3U
+#EXTM3U x-tvg-url="http://epg.siptveu.com/epg/guide-turkey.xml.gz"
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",
 https://pixeldrain.com/api/file/njiPhX85?=.mp4
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",
 https://pixeldrain.com/api/file/RA34BkX8?=.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/xSJ841Kctj93gO1y25jBhQHayHg.jpg" group-title="Filmler",M.Ö. 10,000 2008
+https://vidmody.com/vs/tt0443649
 #EXTINF:-1 tvg-name="1 TV Georgia" group-title="CanliTV",1 TV GEORGIA
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/1-tv-georgia
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Undefined",1TV GEO
+https://tv.cdn.xsg.ge/gpb-1tv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7pbUJFMeP2M1OkL1O6krIL1blVp.jpg" group-title="Filmler",2012
+https://vidmody.com/vs/tt1190080
 #EXTINF:-1 tvg-id="ext" tvg-name="24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/24-tr.png" group-title="TURK HD+ LINE",24
 https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8
 #EXTINF:-1 tvg-id="24" tvg-name="24" tvg-logo="https://i.imgur.com/8FO41es.png" group-title="YEDEKLER",24
@@ -35,8 +41,6 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/a-para-ca
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
 #EXTINF:-1 Yedek="https://x.canlitvapp.com/aspor/index.m3u8" Yedek2="https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8" Yedek3="https://trkvz-live.daioncdn.net/aspor/aspor_1080p.m3u8" Yedek4="http://50.7.144.122:1935/livetv/aspor.stream/sec-f5-v1-a1.m3u8" Yedek5="http://78.128.125.60:9981/play/a018/index.m3u8" Yedek6="https://217.30.11.74/e/158.m3u8" Yedek7="https://trkvz-live.daioncdn.net/aspor/aspor.m3u8" tvg-id="A SPOR HD.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/archive/e/e9/20140920094552%21A_Spor_logosu.png" group-title="Spor",A SPOR
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
-#EXTINF:-1 tvg-name="A Spor" group-title="CanliTV",A SPOR
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/aspor-canli-hd
 #EXTINF:-1 tvg-logo="https://cdn.technettv.com/channel/33860/logo_256.png" group-title="YEDEKLER",A SPOR
 https://api.codetabs.com/v1/proxy/?quest=https://andro.2385437.xyz/checklist/androstreamliveas.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.technettv.com/channel/33860/logo_256.png" group-title="YEDEKLER",A SPOR
@@ -67,8 +71,6 @@ https://httxxkbiqd.erbvr.com/vms/4/ee/73/4ee73195-34bb-452a-ae59-0bc04a38884b/4e
 https://httxxkbiqd.erbvr.com/vms/d/85/e5/d85e5995-7e38-495c-b809-f16ea4a4d368/d85e5995-7e38-495c-b809-f16ea4a4d368.smil/.m3u8?st=XXSoOnvDcbfHTagJEGORDA&e=1773528109
 #EXTINF:-1 Yedek="http://stream.tvcdn.net/eglence/a2.m3u8" Yedek2="https://x.canlitvapp.com/a2/index.m3u8" Yedek3="https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8" Yedek4="http://89.187.191.41/A2-HD-TR/video.m3u8" Yedek5="https://trkvz-live.daioncdn.net/a2tv/a2tv.m3u8" tvg-id="A2 HD.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/e/e8/A2_logosu.jpg" group-title="Belgesel",A2
 http://89.187.191.41/A2-HD-TR/video.m3u8
-#EXTINF:-1 tvg-id="A2" tvg-name="A2" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/e/e8/A2_logosu.jpg" group-title="GENEL",A2
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
 #EXTINF:-1 tvg-name="A2 Tv" group-title="CanliTV",A2 TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/a2-tv-canli-kesintisiz
 #EXTINF:-1 group-title="Dini" tvg-logo="https://assets.uzunmuhalefet.com/logos/cbd9f19f-efa2-4416-923c-46cda842668a.png" tvg-url="https://www.abnturkey.com/" tvg-id="",ABN TURKEY
@@ -81,6 +83,12 @@ https://vidmody.com/vs/tt0103786
 https://vidmody.com/vs/tt0106375
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mIjzNxaUWsacg4R8rDGl6pJn4C8.jpg" group-title="Filmler",AFACAN KÖPEK BEETHOVEN 5 2003
 https://vidmody.com/vs/tt0342108
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Music",AFN MUSIC IRAN
+https://bozztv.com/1gbw5/tintv2/tintv2/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9YDKLbBmWGpxG5bO3TBawtNNOAr.jpg" group-title="Filmler",AFRIKA KAPLANI 1998
+https://vidmody.com/vs/tt0127357
+#EXTINF:-1 tvg-name="AHABER YEDEK" group-title="ULUSAL",AHABER YEDEK
+https://turkuaz.tecostream.xyz/ahaber
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",AILEM ROBOTLARA KARŞI YDK5 HDFILMIZLE
 https://filmarsivi.yusufdkci1.workers.dev/?ID=ailem-robotlara-karsi-ydk5
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",AILEM ROBOTLARA KARŞI YDK6 HDFILMIZLE
@@ -89,6 +97,18 @@ https://filmarsivi.yusufdkci1.workers.dev/?ID=ailem-robotlara-karsi-ydk6
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/akilli-tv
 #EXTINF:-1 tvg-name="Akit Tv" group-title="CanliTV",AKIT TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/akit-tv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lxIvE2sdCs19A4GpVLuyW6W4Xus.jpg" group-title="Filmler",AKREP KRAL 2 2008
+https://vidmody.com/vs/tt1104123
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9BpYX5pWY4OMajsG6xNloZvDN9S.jpg" group-title="Filmler",AKREP KRAL 3 2012
+https://vidmody.com/vs/tt1781896
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2s69P0aW8u27nibMUSlDakwMZj7.jpg" group-title="Filmler",AKREP KRAL 4 2015
+https://vidmody.com/vs/tt3086386
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4uk6QhcCHmJbn8SD0o7utUFrHeK.jpg" group-title="Filmler",AKREP KRAL 5 2018
+https://vidmody.com/vs/tt7338690
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zjXHcsdbDbRu9p8a9MCp5fw33GN.jpg" group-title="Filmler",AKREP KRAL_1 2002
+https://vidmody.com/vs/tt0277296
+#EXTINF:-1 tvg-id="AksuTV.tr@SD" tvg-logo="https://i.imgur.com/mgDCKiy.png" group-title="General",AKSU TV
+https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
 #EXTINF:-1 tvg-name="AL JAZEERA" group-title="ULUSAL",AL JAZEERA
 https://live-hls-web-aje-gcp.thehlive.com/AJE/03.m3u8
 #EXTINF:-1 group-title="Dini" tvg-logo="https://assets.uzunmuhalefet.com/logos/1f737ade-62fd-4bb1-aee2-85ab19eb90c7.png" tvg-url="https://imamhusseintv.com/en" tvg-id="",AL ZAHRA TURKIC
@@ -97,8 +117,16 @@ https://streams.uzunmuhalefet.com/stream/8c948503-cf69-4629-b7fd-7921ba357f3d.m3
 https://live.al-zahratv.com/live/playlist.m3u8
 #EXTINF:-1 tvg-id="AlanyaPostaTV.tr@SD" tvg-logo="https://i.imgur.com/a3w9eFe.png" group-title="General",ALANYA POSTA TV
 https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
+#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/GgEeTNr.png" group-title="News",ALMAHRIAH TV
+https://starmenajo.com/hls/almahriah/index.m3u8
 #EXTINF:-1 tvg-id="AltasTV.tr@SD" tvg-logo="https://i.imgur.com/XaJ7fp6.png" group-title="General",ALTAS TV
 https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="Yerel" tvg-logo="https://assets.uzunmuhalefet.com/logos/8e6f44ce-3d5e-4762-9287-f80d41399dfa.png" tvg-url="https://www.altastv.com.tr/" tvg-id="AltasTV.tr",ALTAŞ TV
+https://streams.uzunmuhalefet.com/stream/ca4c7b79-5810-4478-92a7-025f7a82cb82.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/buZlOCpViykLtwn7Mwtad2cJVbN.jpg" group-title="Filmler",ALTIN PUSULA 2007
+https://vidmody.com/vs/tt0385752
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/43JwkwdYpH9ipKr05Cm8VijCTEN.jpg" group-title="Filmler",ALTIN ŞANS 2008
+https://vidmody.com/vs/tt0770752
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/AwBJTSrB3JrX7sPI3AxIduwgbjx.jpg" group-title="Filmler",ALVIN VE SINCAPLAR 1 2007
 https://vidmody.com/vs/tt0952640
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/narwDmgEU0Uk6pbwR1Vz5KKhZEG.jpg" group-title="Filmler",ALVIN VE SINCAPLAR 2 2009
@@ -107,23 +135,29 @@ https://vidmody.com/vs/tt1231580
 https://vidmody.com/vs/tt1615918
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/41Lmox8xgjrq4qQmkHqTib53Unr.jpg" group-title="Filmler",ALVIN VE SINCAPLAR 4 2015
 https://vidmody.com/vs/tt2974918
+#EXTINF:-1 tvg-id="AnadoluNetTV.tr@SD" tvg-logo="https://www.anadolunettv.com/d/r/logo.png" group-title="General",ANADOLU NET TV
+https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
 #EXTINF:-1,ARABESK TV
 https://tvsms.club/tv.php?kanal=arabeskyeni&file=.m3u8
 #EXTINF:-1 tvg-id="ArasTV.tr@SD" tvg-logo="https://i.imgur.com/JsDCyWG.png" group-title="General",ARAS TV
 http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
 #EXTINF:-1,ARAS TV
 https://2.rtmp.org/tv217/yayin.stream/chunklist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.one/img2/2552.png",ARB GÜNEŞ
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/arb-gunes.m3u8
+#EXTINF:-1 tvg-logo="http://epg.one/img2/2635.png",ARB TV
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/arb.m3u8
 #EXTINF:-1,ARMA TV
 https://tvsms.club/tvz.php?kanal=arma&file=.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lhB8cU7sHMy4ibKHVn67YcP4dI.jpg" group-title="Filmler",ASTERIKS ROMA SITESI ANIMASYON
 https://vidmody.com/vs/tt3759416
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rjr7YX263jcprPcNCXNg1B1b2gj.jpg" group-title="Filmler",ASTERIKS SIHIRLI İKSIRIN SIRRI ANIMASYON
 https://vidmody.com/vs/tt8001346
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",ASTERIKS VE OBURIKS 2
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2lC9lzozlzVxCsSgPjRz5AWcz00.jpg" group-title="Filmler",ASTERIKS VE OBURIKS 2
 https://filmarsivi.yusufdkci1.workers.dev/?ID=asteriks-ve-oburiks-2
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/eZw4CmBDfTqhQ2wJniq1QU5a4tl.jpg" group-title="Filmler",ASTERIKS VE OBURIKS 3
 https://vidmody.com/vs/tt0463872
-#EXTINF:-1 tvg-logo="https://ibb.co/jvqQkB3L" group-title="Filmler",ASTERIKS VE OBURIKS 4 GIZLI GÖREVDE 2012
+#EXTINF:-1 tvg-logo="https://i.ibb.co/TBJ7MpPH/MG-2945.webp" group-title="Filmler",ASTERIKS VE OBURIKS 4 GIZLI GÖREVDE 2012
 https://filmarsivi.yusufdkci1.workers.dev/?ID=asteriksveoburiks4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/auwSYFvMylPaxd0bPnlbPuNcXkI.jpg" group-title="Filmler",ASTERIKS VE OBURIKS SEZARA KARŞI 1999
 https://vidmody.com/vs/tt0133385
@@ -134,29 +168,51 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/atvcanli-
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="YEDEKLER",ATV
 http://89.187.191.41/ATV-HD-TR/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="YEDEKLER",ATV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="YEDEKLER",ATV
+http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="YEDEKLER",ATV
 https://api.codetabs.com/v1/proxy/?quest=https://andro.2385437.xyz/checklist/androstreamliveatv.m3u8
 #EXTINF:-1 tvg-name="ATV Avrupa" group-title="CanliTV",ATV AVRUPA
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/atv-avrupa-canli
 #EXTINF:-1 tvg-name="ATV Azad Tv" group-title="CanliTV",ATV AZAD TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/atv-azad-tv
+#EXTINF:-1 tvg-logo="http://epg.one/img2/9128.png",ATV CINEMA AZ
+http://qe7abbli.megatv.fun/iptv/PTW747LBU3TCMM/2120/index.m3u8
+#EXTINF:-1 tvg-name="ATV YEDEK 2" group-title="ULUSAL",ATV YEDEK 2
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/o55HXx21PqRcOgAaOWFz4tGMrZh.jpg" group-title="Filmler",AV MEVSIMI 2013
+https://vidmody.com/vs/tt1480295
 #EXTINF:-1 tvg-name="Av Tv" group-title="CanliTV",AV TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/av-tv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gKY6q7SjCkAU6FqvqWybDYgUKIF.jpg" group-title="Filmler",AVATAR 1 2009
+https://vidmody.com/vs/tt0499549
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",AVENGERS 3 2018
 https://s9.photogrids.site/m1/DKMyozqypaZhFJ5znJ5cqUxhI2SlYwVjZGthZGN4ZUNhEUIuoNd0zxpTuiqT9apzyxpl5mnKEys0xi9vr1b2160
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zm7FuiMKrHMUiSfcexntY3QhQmB.jpg" group-title="Filmler",AVM POLISI 2015
 https://vidmody.com/vs/tt3450650
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/pXQ8b7b4/icon.png",AYAZ TV
+https://janya-ayaztv.vgcdn.net/ptnr-Vipo%20TV/title-Ayaz_TV/v1/vglive-sk-934820/AyazTV_1500k.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/llZnTutgPbls3ecGitl4nMF3dql.jpg" group-title="Filmler",AYI KARDEŞ 2003
 https://vidmody.com/vs/tt0328880
-#EXTINF:-1 tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/yabanci_sinema.png" group-title="Filmler",AYKUT ENIŞTE 1 2019
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/SPikoRuqAujpKJbayupR7h5mkT.jpg" group-title="Filmler",AYKUT ENIŞTE 1 2019
 https://vidmody.com/vs/tt10320050
-#EXTINF:-1 tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/yabanci_sinema.png" group-title="Filmler",AYKUT ENIŞTE 2 2021
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/41c6pOhq8AQaMbUQD2SKtbR8ldl.jpg" group-title="Filmler",AYKUT ENIŞTE 2 2021
 https://vidmody.com/vs/tt12738164
 #EXTINF:-1 tvg-name="Az Tv" group-title="CanliTV",AZ TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/az-tv-canli
+#EXTINF:-1 tvg-logo="http://assets.tvcdn.net/debb1b49-4809-413b-8418-6c176181a1d6.png",AZSTAR
+http://live.azstartv.com/azstar/azstar_720p/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://epg.one/img2/2134.png",AZTV
+http://str.yodacdn.net/azertv/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5BJDcOEX4WgSTWlxBb4K2t4lf41.jpg" group-title="Filmler",AÇLIK OYUNLARI 2013
 https://vidmody.com/vs/tt1951264
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8Co3DVfBQgVtm7nRalT1UNDU0uM.jpg" group-title="Filmler",BABAMIN PENGUENLERI 2011
 https://vidmody.com/vs/tt1396218
+#EXTINF:-1 tvg-logo="http://epg.one/img2/9144.png",BAKU TV
+https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/baku-tv.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3hV9oRsONpg4FCsVrLjtJsu9BS9.jpg" group-title="Filmler",BANKA İŞI 2008
+https://vidmody.com/vs/tt0200465
 #EXTINF:-1 tvg-logo="https://i.ibb.co/xSFJF5S1/MG-7228.jpg" group-title="Filmler",BATMAN 1 2005
 https://vidmody.com/vs/tt0372784
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",BATMAN 3 2012
@@ -167,6 +223,12 @@ https://vidmody.com/vs/tt11518196
 https://vidmody.com/vs/tt0109190
 #EXTINF:-1 tvg-name="Bein Sports Haber" group-title="CanliTV",BEIN SPORTS HABER
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/beinsports-haber
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/emptYTgsZk6KuekljImkQSKhh6B.jpg" group-title="Filmler",BELALI TANIK 2 2021
+https://vidmody.com/vs/tt8385148
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/d37Dzr440VIPwgEVOBUAOeYSn7G.jpg" group-title="Filmler",BELALI TANIK 2013
+https://vidmody.com/vs/tt2404311
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/cgsNBfT8zPWSwGssHUmDIOgV9vL.jpg" group-title="Filmler",BELALI TANIK 2017
+https://vidmody.com/vs/tt1959563
 #EXTINF:-1,BELEMTÜRK
 https://edge.socialsmart.tv/belemturktv/bant1/chunks.m3u8
 #EXTINF:60,BENGU TURK
@@ -181,6 +243,8 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/benguturk
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/bereket-hayvancilik-tv
 #EXTINF:-1 tvg-name="Bereket Tv" group-title="CanliTV",BEREKET TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/bereket-tv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2ymYXYQYpr6GnrwxRs4UjGHob0X.jpg" group-title="Filmler",BEYAZ DIŞ 1991
+https://vidmody.com/vs/tt0103247
 #EXTINF:-1 tvg-id="ext" tvg-name="BEYAZ TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/beyaz-tv-tr.png" group-title="TURK HD+ LINE",BEYAZ TV
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
 #EXTINF:-1 Yedek="https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8" Yedek2="http://89.36.94.225:80/956bassem/BHrMOpKtyb/1632" Yedek3="" tvg-id="BEYAZ TV HD.tr" tvg-logo="https://tvprofil.com/img/kanali-logo/Beyaz_TV_TR_logo_v2.png?1734094253" group-title="Ulusal",BEYAZ TV
@@ -189,10 +253,10 @@ https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/beyaz-tv
 #EXTINF:-1 tvg-id="BEYAZ TV" tvg-name="BEYAZ TV" tvg-logo="https://www.beyaztv.com.tr/images/logo.png" group-title="GENEL",BEYAZ TV
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_720p.m3u8
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="MOBESE KAMERA",BEYAZIT MEYDANI
-https://filmarsivi.yusufdkci1.workers.dev/?kamera=https://livestream.ibb.gov.tr/cam_turistik/b_beyazitmeydani.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Beşiktaş Tv" group-title="CanliTV",BEŞIKTAŞ TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/besiktas-tv
+#EXTINF:-1 group-title="Yerel" tvg-logo="https://assets.uzunmuhalefet.com/logos/e6214b51-9e82-4ab5-8ad3-56b788b9847f.png" tvg-url="https://birtv.tv/" tvg-id="",BIR TV
+https://streams.uzunmuhalefet.com/stream/d673c331-6d74-44b8-b3cf-f954847e7b6a.m3u8
 #EXTINF:-1 tvg-name="BIR TV" tvg-id="" tvg-logo="https://i.ibb.co/dDdPMWq/birtv.png" group-title="ULUSAL",BIR TV
 https://edge1.socialsmart.tv/birtv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rpAMFrHHqpRCPbrBvYV9HHaVNB8.jpg" group-title="Filmler",BIR ZAMANLAR ASKERDIK 2002
@@ -205,10 +269,14 @@ https://vidmody.com/vs/tt0266915
 https://vidmody.com/vs/tt0293564
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/t2N8Atq2HqyaXzkyFBO0GPn2rMp.jpg" group-title="Filmler",BITIRIM KARINCA 2006
 https://vidmody.com/vs/tt0429589
+#EXTINF:-1 group-title="Yerel" tvg-logo="https://assets.uzunmuhalefet.com/logos/f5dad25f-2aa5-4db5-be96-b345afe8d4c8.png" tvg-url="https://bizimbergamatv.com.tr/" tvg-id="",BIZIM BERGAMA TV
+https://streams.uzunmuhalefet.com/stream/a6f27691-f39d-4a58-b56d-17076d4879ee.m3u8
 #EXTINF:-1 tvg-name="Bizimev Tv" group-title="CanliTV",BIZIMEV TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/bizimev-tv
 #EXTINF:-1 tvg-name="Bİ KANAL" group-title="ULUSAL",Bİ KANAL
 https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
+#EXTINF:-1,BİR TV
+https://edge1.socialsmart.tv/birtv/bant1/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/iMEOdAaAm0ITMfH7nubY6ZQJC76.jpg" group-title="Filmler",BLACK WIDOW
 https://vidmody.com/vs/tt3480822
 #EXTINF:-1 tvg-id="BloombergHT.tr@SD" tvg-logo="https://i.imgur.com/bmkXfIE.png" group-title="Business",BLOOMBERG HT
@@ -217,16 +285,22 @@ https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/bloomberg-ht-canli-hd-izle
 #EXTINF:-1 tvg-id="Bloomberg HT" tvg-name="Bloomberg HT" tvg-language="Turkish" tvg-logo="https://i.ibb.co/DVRzygX/bloomberg.jpg",BLOOMBERG HT
 https://ciner.daioncdn.net/bloomberght/bloomberght_720p.m3u8
+#EXTINF:0 tvg-country="TR" tvg-logo="https://i.ibb.co/DVRzygX/bloomberg.jpg" group-title="Undefined",BLOOMBERG HT
+http://ciner.daioncdn.net/bloomberght/bloomberght_720p.m3u8
 #EXTINF:-1 tvg-name="BRT Tv" group-title="CanliTV",BRT TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/karabuk-brt-tv
 #EXTINF:-1 tvg-name="BRT1" group-title="ULUSAL",BRT1
 https://edge.kuzeykibrissmart.tv/brt1hd/bant1/chunks.m3u8
 #EXTINF:-1 tvg-name="BRT2" group-title="ULUSAL",BRT2
 https://edge.kuzeykibrissmart.tv/brt2hd/bant1/chunks.m3u8
+#EXTINF:-1 tvg-id="BRTV.tr@SD" tvg-logo="https://i.imgur.com/U3qlEAp.png" group-title="Undefined",BRTV
+https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8
 #EXTINF:-1,BRÜKSEL TÜRK
 https://live.euromediacenter.com/brukselturk/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zmgeNe6SliWbJZwWbLoTOgo1top.jpg" group-title="Filmler",BUMBLEBEE 2018
 https://vidmody.com/vs/tt4701182
+#EXTINF:-1 tvg-id="ASTV.tr@SD" tvg-logo="https://asset.artidijitalmedya.com/image/188x188/channels/v1/logo_13.png" group-title="News",BURSA AS TV
+https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
 #EXTINF:-1,BURSA LINE TV
 https://edge1.socialsmart.tv/linetv/bant1/chunks.m3u8
 #EXTINF:-1 tvg-name="Bursa Tv" group-title="CanliTV",BURSA TV
@@ -251,22 +325,30 @@ https://vidmody.com/vs/tt8435002
 https://vidmody.com/vs/tt0368891
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/odQXgt4W8rBODPc3RB084cvgUv0.jpg" group-title="Filmler",BÜYÜK HAZINE 2 2007 SIRLAR KITABI
 https://vidmody.com/vs/tt0465234
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="MOBESE KAMERA",BÜYÜK ÇAMLICA
-https://filmarsivi.yusufdkci1.workers.dev/?kamera=https://livestream.ibb.gov.tr/cam_turistik/b_buyukcaml%C4%B1ca.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/orVp8956YsSBqFSxwxLtK0UbLly.jpg" group-title="Filmler",BÜYÜK OYUN 2014
+https://vidmody.com/vs/tt2088003
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3WTLfks9F2ZEi2xLovpMUXZpLCX.jpg" group-title="Filmler",BÜYÜKBABA İLE SAVAŞ 2020
 https://vidmody.com/vs/tt4532038
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/b1aEHyDJLmByN1MBYmqRJfqUemn.jpg" group-title="Filmler",CADILAR ZAMANI 2011
+https://vidmody.com/vs/tt0479997
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3jcNvhtVQe5Neoffdic39fRactM.jpg" group-title="Filmler",CAN DOSTUM - A DOG'S PURPOSE 2017
 https://vidmody.com/vs/tt1753383
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tiyHlhIS4Tm6HK8XdwRZX4cc4tS.jpg" group-title="Filmler",CAN DOSTUM 2011
 https://vidmody.com/vs/tt1675434
 #EXTINF:-1 tvg-id="CanTV.tr@SD" tvg-logo="https://i.imgur.com/oIMtuwB.png" group-title="News",CAN TV
 http://canbroadcast.com:7000/canlican/tv.m3u8
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Undefined",CAN TV
+https://livetv.canbroadcast.com:7443/canlican/tv.m3u8
 #EXTINF:-1 tvg-name="Cartoon Network" group-title="CanliTV",CARTOON NETWORK
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/cartoon-network
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tFV8sdzithtgqjabGiPPAGz1fNi.jpg" group-title="Filmler",CAST AWAY YENI HAYAT 2000
+https://vidmody.com/vs/tt0162222
 #EXTINF:-1 tvg-id="CayTV.tr@SD" tvg-logo="https://i.imgur.com/ndupxwu.png" group-title="General",CAY TV
 https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-name="CBC Sport" group-title="CanliTV",CBC SPORT
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/cbcsportcanli-hd
+#EXTINF:-1 tvg-logo="http://epg.one/img2/2556.png",CBC TV
+http://qe7abbli.megatv.fun/iptv/PTW747LBU3TCMM/1050/index.m3u8
 #EXTINF:-1 tvg-name="CBS NEWS" group-title="ULUSAL",CBS NEWS
 https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master_24.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/cDbkRkfNJePmEXP6mKQWNbCkLg8.jpg" group-title="Filmler",CEHENNEM MELEKLERI 2 2012
@@ -285,8 +367,10 @@ https://vidmody.com/vs/tt0122151
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/cem-tv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3atixgdhtMtELyyaIOUlm4k2gMM.jpg" group-title="Filmler",CESUR BRAVE 2012
 https://vidmody.com/vs/tt1217209
-#EXTINF:-1 tvg-id="CİNE1" tvg-name="CİNE1" tvg-logo="https://cine1.com.tr/images/cine1tvas.png" group-title="GENEL",CİNE1
-https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/vKUqKSz5BZscbCYM8XIzYgDeSEZ.jpg" group-title="Filmler",CEZALANDIRICI 1993
+https://vidmody.com/vs/tt0106697
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tiG6lHchCePZnISpYjoB5JI9eHS.jpg" group-title="Filmler",CLIFFORD BÜYÜK KIRMIZI KÖPEK 2021
+https://vidmody.com/vs/tt2397461
 #EXTINF:-1 tvg-id="CNBCe.tr@SD" tvg-logo="https://s.cnbce.com/dist/images/logo-nav.png" group-title="Business;Series",CNBC-E
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
 #EXTINF:-1 Yedek="https://trn03.tulix.tv/gt-cnnturk/index.m3u8" Yedek2="https://tgn.bozztv.com/dvrfl05/gin-cnnturk/tracks-v1a1/mono.m3u8" Yedek3="http://89.36.94.225:80/956bassem/BHrMOpKtyb/1642" Yedek4="http://78.128.125.60:9981/play/a01f/index.m3u8" tvg-id="CNN TÜRK HD.tr" tvg-logo="https://i.ibb.co/bFsmkwJ/cnn-turk.png" group-title="Haber",CNN TURK
@@ -295,6 +379,8 @@ https://trn03.tulix.tv/gt-cnnturk-tv/index.m3u8
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/cnnturk-canli-izle
 #EXTINF:-1 tvg-name="D Max" group-title="CanliTV",D MAX
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/d-max-canli
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bRrt4eSNKzef4w4lF8VElof7UQh.jpg" group-title="Filmler",D'ARTAGNAN'IN KILICI CODE M 2015
+https://vidmody.com/vs/tt3636010
 #EXTINF:-1,DAMAR TV
 https://tvsms.club/tv.php?kanal=damar&file=.m3u8
 #EXTINF:-1 tvg-name="Damla Tv" group-title="CanliTV",DAMLA TV
@@ -305,12 +391,10 @@ https://vidmody.com/vs/tt0120744
 https://vidmody.com/vs/tt1781827
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1XNnFGnHFsVuPe4wnNQcFV2lIqy.jpg" group-title="Filmler",DEMIRYOLU KAPLANLARI 2016
 https://vidmody.com/vs/tt4687848
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="MOBESE KAMERA",DENE 16
-https://ectvradio.earthcam.com/earthcamradio/meditation/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="MOBESE KAMERA",DENE 27
-https://video2archives.earthcam.com/earthcamtv-vod/_definst_/mp4:archives/19639/backup.mp4/chunklist_w98855452.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lZWkv9hYJaxpo6OIAGb3SKY6L9w.jpg" group-title="Filmler",DENIZ CANAVARI 2022
 https://vidmody.com/vs/tt9288046
+#EXTINF:-1 tvg-id="DenizPostasiTV.tr@SD" tvg-logo="https://i.imgur.com/Mm8hdfx.png" group-title="General",DENIZ POSTASI TV
+https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="SİNEMALAR",DENIZ SINEMA
 https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qSM9Kx66ryoveFIGt2sw5nNlbf9.jpg" group-title="Filmler",DERIN KARGAŞA HAVOC 2025
@@ -327,8 +411,12 @@ https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95
 http://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Diyanet Tv" group-title="CanliTV",DIYANET TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/diyanet-tv
+#EXTINF:-1 tvg-id="DiyarTV.tr@SD" tvg-logo="https://i.imgur.com/qWkHjRA.png" group-title="Religious",DIYAR TV
+https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1cnt5KeFv4KMYRb4aydhO9c8a4t.jpg" group-title="Filmler",DIŞ PERISI
 https://vidmody.com/vs/tt0808510
+#EXTINF:-1 tvg-id="DimTV.tr@SD" tvg-logo="https://i.imgur.com/X4QFDhk.png" group-title="News",DİM TV
+https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8
 #EXTINF:-1,DİM TV
 https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/chunks.m3u8
 #EXTINF:-1,DİZİ TV
@@ -359,6 +447,8 @@ https://live.duhnet.tv//S2/HLS_LIVE/dreamturknp/playlist.m3u8
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 #EXTINF:-1 tvg-name="Dream Türk" group-title="CanliTV",DREAM TÜRK
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/dreamturk-canli
+#EXTINF:-1 tvg-logo="http://epg.one/img2/2435.png",DUNYA TV
+https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/dunya-tv.m3u8
 #EXTINF:-1 tvg-name="DW ENGLİSH" group-title="ULUSAL",DW ENGLİSH
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream04/streamPlaylist.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pcotbTq3rUYlSdq6qRJNOXIcmAP.jpg" group-title="Filmler",DÜNYA ISTILASI LOS ANGELES SAVAŞI 2011
@@ -379,6 +469,10 @@ https://vidmody.com/vs/tt1389137
 https://canli.edessatv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Edirne Tv" group-title="CanliTV",EDIRNE TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/edirne-tv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nLe74IZUpsyMy1ISSRJKGvExPFr.jpg" group-title="Filmler",EFSANE ASKER THE MYTH 2005
+https://vidmody.com/vs/tt0365847
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nGGlM5DSK0BfyhOrSE3fMqnGdRY.jpg" group-title="Filmler",EJDER ÖPÜCÜĞÜ 2001
+https://vidmody.com/vs/tt0271027
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",EJDERHANI NASIL EGITIRSIN 3
 https://s3.imagebin.pics/mm/FT93YaEiYyElLJyhYyyiqKVhEUWuM29hYwZhZwNkBF4kZQtjYzE1LJjd0zxnJ1uM2IvnJ4hpTywpjs0xi3vr1
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",EJDERHANI NASIL EĞITIRSIN 1
@@ -389,28 +483,46 @@ https://ia601709.us.archive.org/2/items/filmarsivi/film1.mp4
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/ekin-tv
 #EXTINF:-1 tvg-name="EKOL SPORTS" group-title="ULUSAL",EKOL SPORTS
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8?autoplay=1
+#EXTINF:-1 tvg-id="EkolSportsTV.tr" tvg-logo="https://i.ibb.co/Y4tR1tTm/Ekolsports.jpg" group-title="Spor",EKOL SPORTS
+https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
 #EXTINF:-1,EKOL TV
 https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
 #EXTINF:-1 tvg-name="EkoTürk Tv" group-title="CanliTV",EKOTÜRK TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/ekoturk-tv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yM2bXInHW0CQdRDgM5GiJjAV1QQ.jpg" group-title="Filmler",EL GRINGO YABANCI 2012
+https://vidmody.com/vs/tt1990216
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/d07HQv94/EL-TV-2020.png",EL TV
+https://live.eltv.az/live/eltv/chunklist_w1920626794.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6ZvRiIVP7x79CVkNaHy6oBkypLO.jpg" group-title="Filmler",ENZO YAĞMURDA YARIŞ SANATI 2019
 https://vidmody.com/vs/tt1478839
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/b9QqS5Hz1CqT16ZxwxJqwzCfIgr.jpg" group-title="Filmler",ER RYANI KURTARMAK
 https://vidmody.com/vs/tt0120815
+#EXTINF:-1 tvg-id="ERTV.tr@SD" tvg-logo="https://i.imgur.com/VDGEPrD.png" group-title="General",ER TV
+https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
 #EXTINF:-1,ERCİYES TV
 https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8
 #EXTINF:-1 tvg-id="ErzurumWebTV.tr@SD" tvg-logo="https://i.imgur.com/HF7N4Li.png" group-title="General",ERZURUM WEB TV
 https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
-#EXTINF:-1 tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/yabanci_sinema.png" group-title="Filmler",ESARETIN BEDELI 1994
+#EXTINF:-1 tvg-id="ESTV.tr@SD" tvg-logo="https://i.imgur.com/epAEBrp.png" group-title="Undefined",ES TV
+https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7T2SDS5efuJiK45oyKoEzf9RKjw.jpg" group-title="Filmler",ESARETIN BEDELI 1994
+https://vidmody.com/vs/tt0111161
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7T2SDS5efuJiK45oyKoEzf9RKjw.jpg" group-title="Filmler",ESARETIN BEDELI 1994
 https://pixeldrain.com/api/file/Spn3UReP?=.mp4
+#EXTINF:-1 tvg-id="ETVKayseri.tr@SD" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_msPtG6zfPKIJIIdvG4dehXLoVoXcHM2-2HL9YxsNYzGQ=s512-c-k-c0x00ffffff-no-rj" group-title="General",ETV KAYSERI
+https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 #EXTINF:-1 tvg-id="ETVManisa.tr@SD" tvg-logo="https://i.ibb.co/QKXtdkz/sOd3INg.png" group-title="Undefined",ETV MANISA
 https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="Diğer" tvg-logo="https://assets.uzunmuhalefet.com/logos/b3aa542e-ea0a-4440-abd7-9cab98fb9b1a.png" tvg-url="https://euro90tv.com/" tvg-id="",EURO 90 TV
+https://streams.uzunmuhalefet.com/stream/fff1420e-05a2-4bdc-a21f-95ba110e4173.m3u8
 #EXTINF:-1 tvg-name="EURO D" tvg-id="EuroD.tr" tvg-logo="https://i.ibb.co/jMQTJmh/euro-d.png" group-title="ULUSAL",EURO D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
 #EXTINF:-1,EURO D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
 #EXTINF:-1 tvg-name="Euro D" group-title="CanliTV",EURO D
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/eurod-canli
+#EXTINF:-1 tvg-id="EuroD.tr" tvg-logo="http://assets.tvcdn.net/f4a83153-48c6-4ece-8082-1b370768f88a.png" group-title="Ulusal - Yurt Disi",EURO D
+http://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
 #EXTINF:-1 tvg-name="Euro Star" group-title="CanliTV",EURO STAR
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/eurostar-canli
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/eW5LQO6pyd3WyFUvyeL5WAffZmL.jpg" group-title="Filmler",EVDE TEK BAŞINA 1 1990
@@ -421,6 +533,8 @@ https://vidmody.com/vs/tt0119303
 https://vidmody.com/vs/tt0329200
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8yUo8CTJlSAPHgxM2iA6dCgaMRy.jpg" group-title="Filmler",EVDE TEK BAŞINA 5 2012
 https://vidmody.com/vs/tt2308733
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qer4dQQATYs5vHxpU8LFOsbY1L8.jpg" group-title="Filmler",EVRENIN ASKERLERI 1992
+https://vidmody.com/vs/tt0105698
 #EXTINF:-1,EZO TV
 https://tvsms.club/tvz.php?kanal=ezo&file=.m3u8
 #EXTINF:-1 tvg-id="FBTV.tr@SD" tvg-logo="https://i.imgur.com/qBVqtYd.png" group-title="Sports",FB TV
@@ -445,8 +559,6 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/flash-hab
 https://flashhaber-live.ercdn.net/flashhaber/flashhaber.m3u8
 #EXTINF:-1 tvg-name="Fox Tv" group-title="CanliTV",FOX TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/foxtvcanlihd-izle
-#EXTINF:-1 tvg-name="FRANCE 24" group-title="ULUSAL",FRANCE 24
-https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-name="FRM Tv HD" group-title="CanliTV",FRM TV HD
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/frm-tv
 #EXTINF:-1,FRT TV
@@ -583,8 +695,6 @@ https://vidmody.com/vs/tt1059793
 https://vidmody.com/vs/tt1135929
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/iAlVx1Zb0LsxknBh2TPM4NaW6l.jpg" group-title="Filmler",GARFIELD SÜPER KAHRAMAN
 https://vidmody.com/vs/tt1389762
-#EXTINF:-1 tvg-name="Gaziantep Olay Tv" group-title="CanliTV",GAZIANTEP OLAY TV
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/gaziantep-olay-tv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3AYalNaJw8MwAKK5j2yq2xw3yID.jpg" group-title="Filmler",GECE VE GÜNDÜZ 2010
 https://vidmody.com/vs/tt1013743
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/s6pfkJuTFZe7BCfJ5vOCECNmQbW.jpg" group-title="Filmler",GELECEĞE DÖNÜŞ 1 1985
@@ -599,6 +709,8 @@ https://tvsms.club/tv.php?kanal=genctv&file=.m3u8
 https://vidmody.com/vs/tt1386703
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zGVGAupxcQMZjzWhCTaswjPbpH2.jpg" group-title="Filmler",GERÇEĞIN PEŞINDE 2012
 https://vidmody.com/vs/tt1568338
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/b0SueZSyn1NPZ6Ro9p34nkpksB6.jpg" group-title="Filmler",GEÇIT YOK 2013
+https://vidmody.com/vs/tt1549920
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/oMsYWOyks2lWUB4cuuLseTLXoKh.jpg" group-title="Filmler",GIZEMLI ADAYA YOLCULUK 2012
 https://vidmody.com/vs/tt1397514
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",GLADYATÖR
@@ -629,8 +741,20 @@ https://vidmody.com/vs/tt9603212
 https://vidmody.com/vs/tt9603208
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8YDbmfcpugWwwz5ohmbt2eR1CJp.jpg" group-title="Filmler",GÜN BATARKEN 2004
 https://vidmody.com/vs/tt0367479
+#EXTINF:-1 group-title="Yerel" tvg-logo="https://assets.uzunmuhalefet.com/logos/f7a57024-ee57-40bb-a43b-0c5fed572e2a.png" tvg-url="https://www.guneydogutv.com/" tvg-id="",GÜNEYDOĞU TV
+https://streams.uzunmuhalefet.com/stream/963f6691-6c09-405b-944a-95beb7167c67.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9FN5n8wGYrfSJaKGF9uObdKimIh.jpg" group-title="Filmler",GÜVENLIK 2017
+https://vidmody.com/vs/tt3501112
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9f6S1tYH/In-Shot-20250222-184002920.png",GƏNCƏ TV
+https://raw.githubusercontent.com/Elvin4K/restream/refs/heads/pro4k/1ganjatv.m3u8
 #EXTINF:-1,HABER 61
 http://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Undefined",HABER 61
+http://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/HasBahCa.m3u8
+#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/RhPIYKu.jpg" group-title="Undefined",HABER 61
+https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Undefined",HABER 61 TV
+http://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/iptvdelisi.m3u8
 #EXTINF:-1 tvg-id="HaberGlobal.tr@SD" tvg-logo="https://i.imgur.com/fu6XeGS.png" group-title="News",HABER GLOBAL
 https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
 #EXTINF:-1 tvg-name="HABER GLOBAL" tvg-id="HaberGlobal.tr" tvg-logo="https://i.ibb.co/4ZpZWkf/haber-global.png" group-title="HABER",HABER GLOBAL
@@ -643,8 +767,8 @@ https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8
 #EXTINF:-1 tvg-name="HABERTURK" group-title="ULUSAL",HABERTURK
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv.m3u8
-#EXTINF:-1 tvg-name="Habertürk Tv" group-title="CanliTV",HABERTÜRK TV
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/haberturk-canli-hd
+#EXTINF:-1 tvg-id="HaberturkTV.tr" tvg-logo="http://assets.tvcdn.net/9fbfa842-0fff-488a-aab7-d534dbbfe8a9.png" group-title="Haber",HABERTURK
+https://tv.ensonhaber.com/haberturk/haberturk.m3u8
 #EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",HALEF: KÖKLERIN ÇAĞRISI 24B 1S
 https://video.twimg.com/amplify_video/2032198792624160768/pl/YGR1DCPIm9BW19S_.m3u8?tag=21
 #EXTINF:-1 tvg-id="HalkTV.tr@SD" tvg-logo="https://i.imgur.com/xM0HA30.png" group-title="News",HALK TV
@@ -661,6 +785,8 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/halk-tv-e
 https://vidmody.com/vs/tt3778644
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7DyuV2G0hLEqHeueDfOqhZ2DVut.jpg" group-title="Filmler",HANCOCK 2008
 https://vidmody.com/vs/tt0448157
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6QDeHwBXDHbCbuzStgUpuUAqnap.jpg" group-title="Filmler",HANNA 2011
+https://vidmody.com/vs/tt0993842
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mLg3IVwzlruZblvajC4Czrp07RL.jpg" group-title="Filmler",HAYALET AVCILARI
 https://vidmody.com/vs/tt1289401
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6EYuAfhgJUWeSFvyf0Cr2L2nss4.jpg" group-title="Filmler",HAYALET AVCILARI: ÖTEKI DÜNYA
@@ -675,6 +801,10 @@ https://vidmody.com/vs/tt1564367
 https://vidmody.com/vs/tt2126357
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gJ5MsTlcWdn9TqdSdJ7PXU9taXX.jpg" group-title="Filmler",HAYVAN BAKICISI 2011
 https://vidmody.com/vs/tt1222817
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7uxLx4Ec8RqVBoyBMFcm6PYpsWw.jpg" group-title="Filmler",HERKÜL: EFSANE BAŞLIYOR
+https://vidmody.com/vs/tt1043726
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mIgUDBkAewVJXYjQLa15BJbBEJk.jpg" group-title="Filmler",HERKÜL: ÖZGÜRLÜK SAVAŞÇISI
+https://vidmody.com/vs/tt1267297
 #EXTINF:-1 tvg-name="Hilal Tv" group-title="CanliTV",HILAL TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/hilal-tv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1SnUyCMbp64xBGWChfMO0sYIJUQ.jpg" group-title="Filmler",HIZ TUZAĞI 1 1994
@@ -693,11 +823,13 @@ https://s24.seeshare.pics/mv/EzSmqP5LYwVjZwZhDzk1pzS5YwRjBQOjYxEIDHjd0zxp2Iyp2uu
 https://vidmody.com/vs/tt1013752
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/80v4HQwREdesIvnnpTfvoCXQJ4T.jpg" group-title="Filmler",HIZLI VE ÖFKELI 8
 https://vidmody.com/vs/tt4630562
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",HOBBIT 1 YEDEK
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3ViE9ZRzaPXbIY7XLtlFdJMCFSm.jpg" group-title="Filmler",HOBBIT 1 2012
+https://vidmody.com/vs/tt0903624
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3ViE9ZRzaPXbIY7XLtlFdJMCFSm.jpg" group-title="Filmler",HOBBIT 1 YEDEK 2012
 https://s11.imageshub.pro/mi/FT9vLzy0YwRhDzIeoTIhoJIxnJfhJJ9fL3IfqJfhITuyYxuiLzWcqP4kYxShYyIhMKujMJA0MJDhFz91pz5yrF4lZQRlYwRjBQOjYxE1LJjd0zxnJ1uM2ImnUIvYaOlojs0xi11vr1b480
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",HOBBIT 2
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bFKZJBwBrm2AYlAQthA7a4Hd1jw.jpg" group-title="Filmler",HOBBIT 2 2013
 https://vidmody.com/vs/tt1170358
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",HOBBIT 3
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ncIV890nmkYCGImfp0oQflBvU5d.jpg" group-title="Filmler",HOBBIT 3 2014
 https://vidmody.com/vs/tt2310332
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",HOBBS VE SHAW 2019
 https://pixeldrain.com/api/file/vBcXCfbR?=.mp4
@@ -707,18 +839,26 @@ https://vidmody.com/vs/tt0451079
 https://ciner-live.ercdn.net/htspor/htspor.m3u8
 #EXTINF:-1 tvg-id="HTSporTV.tr@SD" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="Sports",HTSPOR TV
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
+#EXTINF:-1 tvg-id="HunatTV.tr@SD" tvg-logo="https://i.imgur.com/NrxHGnb.png" group-title="General",HUNAT TV
+https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
 #EXTINF:-1,HÜR TV
 https://live.euromediacenter.com/hurtv/tracks-v1a1/mono.m3u8
 #EXTINF:-1,ICEL TV
 https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="IlkeTV.tr@HD" tvg-logo="https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png" group-title="Undefined",ILKE TV
 https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",IRON MAN 3
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Undefined",IRAN INT
+https://live.playstop.me/1816184091/chunklist_b1196000.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/WWBhWG3k/MG-7224.jpg" group-title="Filmler",IRON MAN 1 YEDEK 2008
+https://vidmody.com/vs/tt0371746
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/vzsdbpqOImEg8njfvK5kLLpUgsW.jpg" group-title="Filmler",IRON MAN 2 2010
+https://vidmody.com/vs/tt1228705
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/wpW7k3TYS3WG89vPiRQr4peEcFO.jpg" group-title="Filmler",IRON MAN 3 2013
 https://s3.pixypost.art/mh/ETIgnKVhDJEuoF4mYwRjBQOjYxEIDHjd0zxpTy4rKOip3DhLKW0s0xi3vr1
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="MOBESE KAMERA",ISTANBUL ATAŞEHIR
-https://601a43eea2819.streamlock.net/hls/471.stream/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="MOBESE KAMERA",ISTANBUL ATAŞEHIR
-https://601a43eea2819.streamlock.net/hls/471.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/wpW7k3TYS3WG89vPiRQr4peEcFO.jpg" group-title="Filmler",IRON MAN 3 YEDEK 2013
+https://vidmody.com/vs/tt1300854
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yTfzOGKAKRqsvXToImspDlOGHaa.jpg" group-title="Filmler",ISLAH ADASI 2016
+https://vidmody.com/vs/tt2782844
 #EXTINF:-1 tvg-logo="https://i.ibb.co/YZG9MRS/turktv.png",ITASLI.GITHUB.IO/TURKTV
 https://i.ibb.co/YZG9MRS/turktv.png
 #EXTINF:-1 tvg-name="İbb Tv" group-title="CanliTV",İBB TV
@@ -733,10 +873,32 @@ https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/chunks.m3u8
 https://vidmody.com/vs/tt3606756
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",İNCE KIRMIZI HAT 1998
 https://vidmody.com/vs/tt0120863
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/o79udSXjgwW1KBZSv9sGYGKf9Aa.jpg" group-title="Filmler",İNDIANA JONES 1 1981
+https://vidmody.com/vs/tt0082971
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/wLpjJ1TajsAnpTYSlwqZHZS6Dqj.jpg" group-title="Filmler",İNDIANA JONES 2 1984
+https://vidmody.com/vs/tt0087469
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/grTXFQ12RWr0u4qmAEqFFrWOQpg.jpg" group-title="Filmler",İNDIANA JONES 3 1989
+https://vidmody.com/vs/tt0097576
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/fRnHyCG3HX99mn5xGFkAKK2B2iq.jpg" group-title="Filmler",İNDIANA JONES 4 2008
+https://vidmody.com/vs/tt0367882
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/uPcFKXTJoPKs9W1jtKYNnCBEesl.jpg" group-title="Filmler",İNDIANA JONES 5 2023
+https://vidmody.com/vs/tt1462764
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hcXMA41pFzrX1l2dgqLAwbErRFS.jpg" group-title="Filmler",İNTIKAM KURŞUNU 2012
+https://vidmody.com/vs/tt1308729
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4SPIoXS5IOUynefvZg9Ef8DkSZ0.jpg" group-title="Filmler",İNTIKAM SAVAŞÇILARI 2011
+https://vidmody.com/vs/tt1533749
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/os63lS3GDN1p3pI0zSsgyt5jL2A.jpg" group-title="Filmler",İSTILA THE INVASION 2007
+https://vidmody.com/vs/tt0427392
 #EXTINF:-1,İSVİÇRE TV
 https://i41.ozelip.com:3269/hybrid/play.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jOGOfdl8DToXFoGrtVe9mdsy0sW.jpg" group-title="Filmler",İTALYAN IŞI 2003
+https://vidmody.com/vs/tt0317740
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/inPPsMpQBKfDORKqemLZn8kQDTp.jpg" group-title="Filmler",İYI KÖTÜ TUHAF 2008
+https://vidmody.com/vs/tt0901487
 #EXTINF:-1,İZMİR TIME 35 TV
 https://cdn-time35tv.yayin.com.tr/time35tv/time35tv/playlist.m3u8
+#EXTINF:-1 group-title="Yerel" tvg-logo="https://assets.uzunmuhalefet.com/logos/3d11a62f-dc52-4fd4-b816-f06e2b119c10.png" tvg-url="https://www.iceltvfm.com/" tvg-id="",İÇEL TV
+https://streams.uzunmuhalefet.com/stream/02c3f826-93d7-40e4-8406-4f3e72bd4931.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gyIGxZu7l8cZ6JXpyzNQ74nX34h.jpg" group-title="Filmler",İŞARETLER 2002
 https://vidmody.com/vs/tt0286106
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/uQBbjrLVsUibWxNDGA4Czzo8lwz.jpg" group-title="Filmler",JACK REACHER 1 2012
@@ -763,26 +925,46 @@ https://vidmody.com/vs/tt4881806
 https://vidmody.com/vs/tt8041270
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4P5TT9IXEfhBqzcgmDonrvMgbMv.jpg" group-title="Filmler",JURASSIC WORLD 4 2025
 https://vidmody.com/vs/tt31036941
+#EXTINF:-1 tvg-id="Kanal12.tr@SD" tvg-logo="https://i.imgur.com/51xCkXG.png" group-title="General",KANAL 12
+https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8
+#EXTINF:-1 tvg-id="Kanal15.tr@SD" tvg-logo="https://i.imgur.com/wb1Cdc9.png" group-title="General",KANAL 15
+https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
 #EXTINF:-1,KANAL 19
 https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Kanal23.tr@SD" tvg-logo="https://i.imgur.com/3br8RCq.png" group-title="General",KANAL 23
+https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8
 #EXTINF:-1 tvg-name="Kanal 24" group-title="CanliTV",KANAL 24
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/kanal-24-canli
+#EXTINF:-1 tvg-id="Kanal26.tr@SD" tvg-logo="https://i.imgur.com/Mr7XPii.png" group-title="General",KANAL 26
+https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
 #EXTINF:-1 tvg-name="Kanal 26" group-title="CanliTV",KANAL 26
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/kanal26
+#EXTINF:-1 tvg-id="Kanal3.tr@SD" tvg-logo="https://i.imgur.com/eXErSv0.png" group-title="General",KANAL 3
+https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
 #EXTINF:-1 tvg-name="Kanal 3" group-title="CanliTV",KANAL 3
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/kanal-3
 #EXTINF:-1 tvg-id="Kanal32.tr@SD" tvg-logo="" group-title="General",KANAL 32
 https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8
+#EXTINF:-1 group-title="Yerel" tvg-logo="https://assets.uzunmuhalefet.com/logos/0fd41826-8004-4ef8-8b43-15fc67a68a8f.png" tvg-url="https://www.kanal32.com.tr/" tvg-id="",KANAL 32
+https://streams.uzunmuhalefet.com/stream/ca7b041b-e824-43e5-8b11-acfe78a0cda5.m3u8
 #EXTINF:-1,KANAL 32
 https://edge1.socialsmart.tv/kanal32/bant1/chunks.m3u8
+#EXTINF:-1 group-title="Yerel" tvg-logo="https://assets.uzunmuhalefet.com/logos/8214ebad-32ad-4001-b317-ef7b6ea3edb3.png" tvg-url="https://www.kanal33.com.tr/" tvg-id="Kanal33.tr",KANAL 33
+https://streams.uzunmuhalefet.com/stream/955e1693-e65a-4138-926f-c75ea3f4f550.m3u8
 #EXTINF:-1,KANAL 33
 https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
 #EXTINF:-1,KANAL 34
 https://live.euromediacenter.com/kanal34/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/C5Cr0Zxt/Kanal-35-loqo.png",KANAL 35
+https://str2.yodacdn.net/kanal35/tracks-v1a1/mono.m3u8
 #EXTINF:-1,KANAL 53
 https://kanal53.ozelip.com:3448/hybrid/play.m3u8
 #EXTINF:-1,KANAL 58
 https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/chunks.m3u8
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Undefined",KANAL 58
+https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/158M5w7V/1768336784567.png",KANAL 65
+https://a8.radyotelekom.com.tr:3063/stream/play.m3u8
 #EXTINF:-1 tvg-name="Kanal 68" group-title="CanliTV",KANAL 68
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/kanal-68
 #EXTINF:-1 tvg-id="Kanal7.tr@SD" tvg-logo="https://i.imgur.com/0gq9xOm.png" group-title="Entertainment",KANAL 7
@@ -815,30 +997,40 @@ https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/playlist/a
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web
 #EXTINF:-1 tvg-name="KANAL D YEDEK" group-title="ULUSAL",KANAL D YEDEK
 https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald.m3u8
+#EXTINF:-1 tvg-id="KanalFirat.tr@SD" tvg-logo="https://i.imgur.com/3o8Rokp.png" group-title="General",KANAL FIRAT
+https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
 #EXTINF:-1 tvg-id="KanalHayat.tr@SD" tvg-logo="https://i.imgur.com/eikZj19.png" group-title="General",KANAL HAYAT
 https://tbn02a.ltnschedule.com/hls/nx21i.m3u8
 #EXTINF:-1,KANAL PLUS
 https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/cCPh2BsY/Kanal-S-2022.png",KANAL S
+https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/kanal-s.m3u8
+#EXTINF:-1 group-title="Yerel" tvg-logo="https://assets.uzunmuhalefet.com/logos/99427daa-074a-4389-85fa-8aab992dbfb3.png" tvg-url="https://www.kanalurfa.com/" tvg-id="",KANAL URFA
+https://streams.uzunmuhalefet.com/stream/cfc91d04-4b42-4f53-bf0a-cb4aaf8b8af2.m3u8
 #EXTINF:-1,KANAL URFA
 https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8
-#EXTINF:-1 tvg-name="Kanal V" group-title="CanliTV",KANAL V
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/kanal-v
+#EXTINF:-1 tvg-id="KanalV.tr@SD" tvg-logo="https://i.imgur.com/7RNjTno.png" group-title="General",KANAL V
+https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/h4FjFWWiU0LDbJHN0EBeZB3SXnO.jpg" group-title="Filmler",KAPLAN KAPANI 2010
 https://vidmody.com/vs/tt1244658
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",KAPTAN AMERIKA 2 2014
-https://pixeldrain.com/api/file/j7qWCCiF?=.mp4
-#EXTINF:-1 tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/yabanci_sinema.png" group-title="Filmler",KAPTAN AMERIKA 3 2016
-https://vidmody.com/vs/tt3498820
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",KAPTAN AMERIKA İLK YENILMEZ 2011
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jN9CTWJjL1j1F0OokhnyiRGYFu4.jpg" group-title="Filmler",KAPTAN AMERIKA 1 İLK YENILMEZ 2011
 https://vidmody.com/vs/tt0458339
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dgqEHkpBLa1JhN1QtdIyrqFmDWE.jpg" group-title="Filmler",KAPTAN AMERIKA 2 2014
+https://pixeldrain.com/api/file/j7qWCCiF?=.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dgqEHkpBLa1JhN1QtdIyrqFmDWE.jpg" group-title="Filmler",KAPTAN AMERIKA 2 YDK 2014
+https://vidmody.com/vs/tt1843866
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/td9wjb1v4sBE0T5UsZx50QnsZ3j.jpg" group-title="Filmler",KAPTAN AMERIKA 3 2016
+https://vidmody.com/vs/tt3498820
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5CYr1gpMXm1NculmDgsmKTzQ3Rw.jpg" group-title="Filmler",KAR KÖPEKLERI SNOW DOGS 2002
 https://vidmody.com/vs/tt0281373
-#EXTINF:-1 tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/yabanci_sinema.png" group-title="Filmler",KARATE KID 2010
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/95ceYgbL0MtuEMUwTHVf2XoKzl1.jpg" group-title="Filmler",KARATE KID 2010
 https://vidmody.com/vs/tt1155076
-#EXTINF:-1 tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/yabanci_sinema.png" group-title="Filmler",KARATE KID 2025
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pIcPHrIvC02KBwXbRqBd3jOhELU.jpg" group-title="Filmler",KARATE KID 2025
 https://vidmody.com/vs/tt1674782
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/49dEadPwXooCcGx0lc1i4pnMuoD.jpg" group-title="Filmler",KARAYIP KORSANLARI 5
 https://vidmody.com/vs/tt1790809
+#EXTINF:-1 group-title="Yerel" tvg-logo="https://assets.uzunmuhalefet.com/logos/a5df1c55-89f6-4c94-93b9-ea17c1c81fb5.png" tvg-url="https://www.kardelentv.com.tr/" tvg-id="",KARDELEN TV
+https://streams.uzunmuhalefet.com/stream/a72319f1-0c82-497e-afc4-16e89b0f4810.m3u8
 #EXTINF:-1,KARDELEN TV
 https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",KARINCA ADAM 1
@@ -847,14 +1039,20 @@ https://s2.imageshub.pro/m0/DJ50YH1uov4lZQR1YxWfqKWurF4kZQtjpP5RIHSZd0zxnJ1uM2Im
 https://s18.photogrids.site/md/DJ50Yx1uov5uozDhqTuyYyqup3NhHKIuoaE1oJShnJRhZwNlZl5WI0IPYHEZYwRjBQOjYxEIDHjd0zxpTuiqT9apzyxpl5mnKEys0xi18vr1
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qoRVVvE8EUq4HjxmCFkIshLvFf9.jpg" group-title="Filmler",KARINCA Z 1998
 https://vidmody.com/vs/tt0120587
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hgcAwLWEHIoTyKbi9NkouPBijZc.jpg" group-title="Filmler",KARTAL 2011
+https://vidmody.com/vs/tt1034389
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/clOLrIzg5gvGJAeMXYCRIKJI4FZ.jpg" group-title="Filmler",KARTAL GÖZ 2008
 https://vidmody.com/vs/tt1059786
-#EXTINF:-1 tvg-name="Kaçkar Tv" group-title="CanliTV",KAÇKAR TV
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/kackar-tv
+#EXTINF:-1 tvg-logo="http://epg.one/img2/9136.png",KATV1 AZ
+http://qe7abbli.megatv.fun/iptv/PTW747LBU3TCMM/16042/index.m3u8
+#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/MymuDJ1.png" group-title="Undefined",KAY TV
+https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2Kz6hIHc70edgI4woQJpkWDXXnT.jpg" group-title="Filmler",KEDILER VE KÖPEKLER
 https://vidmody.com/vs/tt0239395
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lHmRtYQ7RVVgeA8hS1nrM73NyF.jpg" group-title="Filmler",KEDILER VE KÖPEKLER 2: KITTY GALORE'UN İNTIKAMI
 https://vidmody.com/vs/tt1287468
+#EXTINF:-1 tvg-id="KentTurk.tr@SD" tvg-logo="https://i.imgur.com/FQKPjsm.png" group-title="General",KENT TÜRK TV
+https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
 #EXTINF:-1 tvg-name="Kidz Animez" group-title="CanliTV",KIDZ ANIMEZ
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/kidz-animez
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/c5aEuJfVMoTzqdyz1gykBxEMlqt.jpg" group-title="Filmler",KIMLIK - IDENITY 2003
@@ -869,6 +1067,8 @@ https://vidmody.com/vs/tt3731562
 https://vidmody.com/vs/tt0803061
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lmngkAAjEMsJ53GpqKfsFgMfZr4.jpg" group-title="Filmler",KIYAMET GÜNÜ 2012
 https://vidmody.com/vs/tt1649419
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/vYLyIZMj2mklDGDgutIm5dvML0X.jpg" group-title="Filmler",KOCA BEBEK JOE 1998
+https://vidmody.com/vs/tt0120751
 #EXTINF:-1 tvg-name="Kocaeli Tv" group-title="CanliTV",KOCAELI TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/kocaeli-tv
 #EXTINF:-1,KOCAELİ TV
@@ -877,6 +1077,10 @@ https://edge1.socialsmart.tv/kocaelitv/bant1/playlist.m3u8
 https://vidmody.com/vs/tt0395699
 #EXTINF:-1 tvg-name="Kon Tv" group-title="CanliTV",KON TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/kon-tv
+#EXTINF:-1 tvg-id="KonyaOlayTV.tr@SD" tvg-logo="https://www.konyaolaytv.com/upload/tema/20230307__5154687762.jpg" group-title="General",KONYA OLAY TV
+https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/udySr2TNzk5W7Q7pvWSwCNLSv2u.jpg" group-title="Filmler",KORKUSUZLAR: MIDWAY SAVAŞI
+https://vidmody.com/vs/tt8685520
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1Y2GgDyNJFELoSIVlRhFQSs23Uo.jpg" group-title="Filmler",KORUYUCU 1986
 https://vidmody.com/vs/tt0091828
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/k8Edn8VokKItOL90FVTl6E0JVkk.jpg" group-title="Filmler",KORUYUCU 2005
@@ -891,6 +1095,8 @@ https://vidmody.com/vs/tt1972591
 http://dygvideo.dygdigital.com/live/hls/kralpop
 #EXTINF:-1 tvg-name="Kral Pop Tv" group-title="CanliTV",KRAL POP TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/kral-pop-tv-canli
+#EXTINF:-1 tvg-id="KralPopTV.tr" tvg-logo="http://assets.tvcdn.net/61431fea-4103-46a3-9f8c-aad1504b9776.png" group-title="Muzik",KRAL POP TV
+https://dogus.daioncdn.net/kralpoptv/kralpoptv.m3u8?app=kralpoptv_web
 #EXTINF:-1 tvg-name="Kral Tv" group-title="CanliTV",KRAL TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/kral-tv-canli
 #EXTINF:-1 tvg-name="KRT Tv" group-title="CanliTV",KRT TV
@@ -919,16 +1125,20 @@ https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8
 https://vidmody.com/vs/tt6820256
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rES0z8He0ee6AzfDJ4MaSuJ6nk1.jpg" group-title="Filmler",KUTUP MACERASI 2006
 https://vidmody.com/vs/tt0397313
-#EXTINF:-1,KUZEY KIBRIS
-https://kuzeykibris.tv/m3u8/kktv.m3u8
 #EXTINF:-1 tvg-name="Köy Tv" group-title="CanliTV",KÖY TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/koy-tv
 #EXTINF:-1 tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/yabanci_sinema.png" group-title="Filmler",KÜÇÜK ASKERLER 1998
 https://vidmody.com/vs/tt0122718
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pDHrfIVmZ9ijtNMMy9tfg2mnJsQ.jpg" group-title="Filmler",KÜÇÜK DEV ASKER 2010
 https://vidmody.com/vs/tt1319718
-#EXTINF:-1 tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/yabanci_sinema.png" group-title="Filmler",KÜÇÜK ESNAF 2016
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/w3KvLx4SugUpyi71wP7zXaQ2m7m.jpg" group-title="Filmler",KÜÇÜK ESNAF 2016
 https://vidmody.com/vs/tt5535942
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/guxVSOrqCkETy5fsLZGnedWSOr2.jpg" group-title="Filmler",LABIRENT 1 2014
+https://vidmody.com/vs/tt1790864
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/geLKuS4slfD70sZhvdoZLpEmKrl.jpg" group-title="Filmler",LABIRENT 2 2015
+https://vidmody.com/vs/tt4046784
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/u28LZSmfZVL4CBatbFk9Wfpj959.jpg" group-title="Filmler",LABIRENT 3 2018
+https://vidmody.com/vs/tt4500922
 #EXTINF:-1 tvg-id="LalegulTV.tr@SD" tvg-logo="https://i.imgur.com/wwCysFs.png" group-title="Religious",LALEGUL TV
 https://lbl.netmedya.net/hls/lalegultv.m3u8
 #EXTINF:-1 tvg-name="Lalegül TV" group-title="CanliTV",LALEGÜL TV
@@ -941,12 +1151,20 @@ https://vidmody.com/vs/tt0325703
 https://vidmody.com/vs/tt0048280
 #EXTINF:-1 tvg-name="Lider Tv" group-title="CanliTV",LIDER TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/lider-tv
+#EXTINF:-1 tvg-id="LifeTV.tr@SD" tvg-logo="https://i.imgur.com/lWeJxm0.png" group-title="News",LIFE TV
+https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 #EXTINF:-1 tvg-id="LineTV.tr@SD" tvg-logo="https://i.imgur.com/6GNp7f8.png" group-title="General",LINE TV
 https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="Yerel" tvg-logo="https://assets.uzunmuhalefet.com/logos/93e3b940-950f-4cfe-bae2-3f96d214bddb.png" tvg-url="https://www.linetv.com.tr/" tvg-id="",LINE TV
+https://streams.uzunmuhalefet.com/stream/7994cab9-b6f9-4269-b2f7-f7d99693ab8f.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Hk2RT8Bn/images-removebg-preview.png",LIVE TV
+https://tv.mobyservice.ru/livetv/index.m3u8
 #EXTINF:-1,LİFE TV
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/chunks.m3u8
 #EXTINF:-1 tvg-id="LoveNature.ca@SD" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" group-title="Outdoor",LOVE NATURE
 https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8
+#EXTINF:-1 group-title="Yerel" tvg-logo="https://assets.uzunmuhalefet.com/logos/f5da7259-11f3-42e6-9f8e-87edfa917288.png" tvg-url="https://www.mturktv.com/" tvg-id="",M TÜRK TV
+https://streams.uzunmuhalefet.com/stream/cf468f36-7389-43f1-a5c4-04250bb7cdd5.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2yHiW0RRwoMXkuI2bYIIoxNH93P.jpg" group-title="Filmler",MADAGASKAR 1 2005
 https://filmarsivi.yusufdkci1.workers.dev/?ID=madagascar1
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jksxBK7oypUaMjq7QTQr2OtMplH.jpg" group-title="Filmler",MADAGASKAR 2 2008
@@ -957,6 +1175,8 @@ https://vidmody.com/vs/tt1277953
 https://vidmody.com/vs/tt0288045
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",MALEFIZ 1
 https://vidmody.com/vs/tt1587310
+#EXTINF:-1 tvg-id="MaviKaradenizTV.tr@SD" tvg-logo="https://i.imgur.com/wyWappU.png" group-title="General",MAVIKARADENIZ
+https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/d3ACos3t4YwXML8keTA0wKN8e36.jpg" group-title="Filmler",MAX 1 2015
 https://vidmody.com/vs/tt3369806
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/roIpyS1wlXFCiunN7WGkKSY3BGG.jpg" group-title="Filmler",MAX 2 2017
@@ -967,6 +1187,8 @@ https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=
 https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8
 #EXTINF:-1 tvg-name="Meclis Tv" group-title="CanliTV",MECLIS TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/meclis-tv-canli
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Undefined",MED MUZIK
+http://54.36.110.140/live3/live3.m3u8
 #EXTINF:-1 tvg-name="Medeniyet Tv" group-title="CanliTV",MEDENIYET TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/medeniyet-tv
 #EXTINF:-1 tvg-name="Medine Tv" group-title="CanliTV",MEDINE TV
@@ -979,18 +1201,16 @@ https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
 https://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8
 #EXTINF:-1 tvg-name="Meltem Tv" group-title="CanliTV",MELTEM TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/meltem-tv
+#EXTINF:-1 tvg-id="MercanTV.tr@SD" tvg-logo="https://i.imgur.com/3CWV8bS.png" group-title="Undefined",MERCAN TV
+https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
 #EXTINF:-1,MERCAN TV
 https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/chunks.m3u8
-#EXTINF:-1,METROPOL TV
-https://edge1.socialsmart.tv/metropoltv/smil/metropoltv/bant1/chunks.m3u8?app=supersatforum
+#EXTINF:-1 group-title="Yerel" tvg-logo="https://assets.uzunmuhalefet.com/logos/dd4fd644-27a9-4a49-aedd-a7555616fa31.png" tvg-url="https://www.metropoltv.com.tr/" tvg-id="",METROPOL TV
+https://streams.uzunmuhalefet.com/stream/521b4e67-967b-485d-8462-364e555878c8.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lrL2ZptoYDpSSqI4fWs7OSRYKcy.jpg" group-title="Filmler",MIDWAY 2019
+https://vidmody.com/vs/tt6924650
 #EXTINF:-1 tvg-name="Milli Piyango TV" group-title="CanliTV",MILLI PIYANGO TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/milli-piyango-tv
-#EXTINF:-1 tvg-name="Milyon Tv" group-title="CanliTV",MILYON TV
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/milyon-tv
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/MinikaGO_logo.png/1536px-MinikaGO_logo.png?20200428070543" group-title="Çocuk",MINIKA GO
-http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8?tv=1
-#EXTINF:-1 tvg-name="Minika Go" group-title="CanliTV",MINIKA GO
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/minika-go-canli
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="GENEL",MINIKA GO
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_480p.m3u8
 #EXTINF:-1 tvg-name="Minika Çocuk" group-title="CanliTV",MINIKA ÇOCUK
@@ -1001,8 +1221,6 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_48
 https://vidmody.com/vs/tt0245844
 #EXTINF:-1 tvg-id="MTurkTV.tr@SD" tvg-logo="https://i.imgur.com/xj1gvrq.png" group-title="General",MTÜRK TV
 https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
-#EXTINF:-1,MUGLA TÜRK TV
-https://edge1.socialsmart.tv/muglaturk/bant1/chunks.m3u8
 #EXTINF:-1,MUKABELE TV
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2QerW5GIIyqjZQGv7AVfG6Jp9rZ.jpg" group-title="Filmler",MUMYA
@@ -1019,6 +1237,8 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/muz-tv
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/fWvUNtKwj8t9X71oXNiQGMVXZSM.jpg" group-title="Filmler",MÜFREZE 1986
 https://vidmody.com/vs/tt0091763
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ncuGG0hIlA03dQBJmdoT2LWgodG.jpg" group-title="Filmler",MÜKEMMEL BIR KAÇIŞ A PERFECT GETWAY 2009
+https://vidmody.com/vs/tt0971209
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tbA3OJWaIL8PKp1IX9ETcZo5trv.jpg" group-title="Filmler",MÜZEDE BIR GECE 1 2006
 https://vidmody.com/vs/tt0477347
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/cCQ1YfFhnxP0zJ3IoaAw4j0FeMr.jpg" group-title="Filmler",MÜZEDE BIR GECE 2 2009
@@ -1027,6 +1247,12 @@ https://vidmody.com/vs/tt1078912
 https://vidmody.com/vs/tt13623880
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7y1qzrTpVh72oEA1CHOrpe5J8is.jpg" group-title="Filmler",MÜZEDE BIR GECE 3 2014
 https://vidmody.com/vs/tt2692250
+#EXTINF:-1 tvg-logo="http://epg.one/img2/2557.png",MƏDƏNIYYƏT TV
+http://str.yodacdn.net/medeniyyettele/index.m3u8
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Undefined",NATURAL TV
+https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://ntv.az/assets/images/logo.png?v=2",NAXÇIVAN TV
+http://str.yodacdn.net/ntv/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zhEMRMcZvKLrsOhmXBJPronDpas.jpg" group-title="Filmler",NEED FOR SPEED HIZ TUTKUSU
 https://vidmody.com/vs/tt2369135
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/AvezEm0QCOEXeKZg6SCfV7pF8KN.jpg" group-title="Filmler",NEŞELI AYAKLAR 2006
@@ -1041,8 +1267,6 @@ https://vidmody.com/vs/tt3949660
 https://vidmody.com/vs/tt11057644
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/y7T9CoH0XYlfuxN23yNXNkbCaDk.jpg" group-title="Filmler",NOELLE 2019
 https://vidmody.com/vs/tt5097410
-#EXTINF:-1 tvg-name="Now TV" group-title="CanliTV",NOW TV
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/nowtvcanli
 #EXTINF:-1,NR 1 DAMAR
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e19877b340.smil/chunklist_b400000.m3u8?md5=api5VtN5dEXl5cvRHMQBNQ&expires=1696713505
 #EXTINF:-1,NR 1 TURK
@@ -1069,6 +1293,8 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
 #EXTINF:-1 tvg-id="Number1Dance.tr@SD" tvg-logo="https://i.imgur.com/ZM4PSyq.png" group-title="Music",NUMBER 1 DANCE
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
+#EXTINF:-1 tvg-id="Number1Turk.tr" tvg-logo="https://i.imgur.com/18zjk3q.png" group-title="Muzik",NUMBER 1 TURK
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Number1TV.tr@SD" tvg-logo="https://i.imgur.com/02cDIBi.png" group-title="Music",NUMBER 1 TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Number One Tv" group-title="CanliTV",NUMBER ONE TV
@@ -1119,26 +1345,44 @@ https://vidmody.com/vs/tt0087928
 https://vidmody.com/vs/tt0089822
 #EXTINF:-1 tvg-id="PowerDance.tr@SD" tvg-logo="https://i.imgur.com/QpPteBO.png" group-title="Music",POWER DANCE
 https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
+#EXTINF:-1,POWER DANCE
+https://listen.powerapp.com.tr/dance/dance.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerLove.tr@SD" tvg-logo="https://i.imgur.com/0RzUswR.png" group-title="Music",POWER LOVE
 https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
+#EXTINF:-1,POWER LOVE
+https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerTurkTV.tr@SD" tvg-logo="https://i.imgur.com/9OPoXQG.png" group-title="Undefined",POWER TURK
 https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
 #EXTINF:-1,POWER TURK
 https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlists.m3u8
+#EXTINF:-1,POWER TURK SLOW
+https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 #EXTINF:33,POWER TURK TAPTAZE
 http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
+#EXTINF:-1,POWER TURK TAPTAZE
+https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerTV.tr@SD" tvg-logo="https://i.imgur.com/XSL1gd7.png" group-title="Undefined",POWER TV
 https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Power Tv" group-title="CanliTV",POWER TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/power-tv
+#EXTINF:-1 tvg-id="PowerTV.tr" tvg-logo="http://assets.tvcdn.net/ccb54b98-472f-4c36-a48f-46431c84ab6a.png" group-title="Muzik",POWER TV
+https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
+#EXTINF:-1,POWER TV AKUSTIK
+https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerTurkAkustik.tr@SD" tvg-logo="https://i.imgur.com/driabBO.png" group-title="Music",POWER TÜRK AKUSTIK
 https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
+#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/driabBO.png" group-title="Music",POWER TÜRK AKUSTIK
+http://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerTurkSlow.tr@SD" tvg-logo="https://i.imgur.com/tQSoQXW.png" group-title="Music",POWER TÜRK SLOW
 https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/tQSoQXW.png" group-title="Music",POWER TÜRK SLOW
+http://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerTurkTaptaze.tr@SD" tvg-logo="https://i.imgur.com/a5nW3HU.png" group-title="Music",POWER TÜRK TAPTAZE
 https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Power Türk Tv" group-title="CanliTV",POWER TÜRK TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/power-turk-tv
+#EXTINF:-1 tvg-id="PowerTurkTV.tr" tvg-logo="http://assets.tvcdn.net/c866b6f0-00bd-40b9-9583-8cbdbe6a503e.png" group-title="Muzik",POWERTURK TV
+https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",PREDATOR 2
 https://vidmody.com/vs/tt1424381
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",PREDATOR 3
@@ -1157,8 +1401,8 @@ https://vidmody.com/vs/tt0095956
 https://vidmody.com/vs/tt0462499
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gMuJ7ATXF881oh5ubANUeBm0RMU.jpg" group-title="Filmler",RAMBO 5
 https://vidmody.com/vs/tt1206885
-#EXTINF:-1 tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/yabanci_sinema.png" group-title="Filmler",RAMBO: İLK KAN 1
-https://filmarsivi.yusufdkci1.workers.dev/
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSadD_QQQ-WjH83_SvsGwtmeYNuuQp0DD-y-yYQ3825DHlm3q2qyTNSdKHhNfgFXcWpXoEaYmggJpzFRDN68fCoC22DdMwZgiGIxI4UkLE&s=10" group-title="Filmler",RAMBO: İLK KAN 1
+https://filmarsivi.yusufdkci1.workers.dev/?ID=rambo1
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dz7PpKgAL6ZMjHuuxqLV5Il3fK8.jpg" group-title="Filmler",RAMBO: İLK KAN 2
 https://vidmody.com/vs/tt0089880
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nuBHGAMC61h9tb2pg6UGjn11svM.jpg" group-title="Filmler",RAMPAGE: BÜYÜK YIKIM
@@ -1213,12 +1457,28 @@ https://vidmody.com/vs/tt1436562
 https://vidmody.com/vs/tt2357291
 #EXTINF:-1,RIZE TURK HD
 https://yayin.rizeturk.com:3777/hybrid/play.m3u8
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Undefined",RMTV
+http://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9NS5QGOfck24yL3bZqWeW06PgPC.jpg" group-title="Filmler",ROBIN HOOD 2009
 https://vidmody.com/vs/tt0955308
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/oWABvAo7vWGGaFk37yUd0SKhrch.jpg" group-title="Filmler",ROCKY 1 1976
+https://vidmody.com/vs/tt0075148
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/sD5wuQ9MR4UFWKOkqZzMmYmaUDN.jpg" group-title="Filmler",ROCKY 2 1979
+https://vidmody.com/vs/tt0079817
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8dqTmlVhd6rQrV5HFByrsBhPC0P.jpg" group-title="Filmler",ROCKY 3 1982
+https://vidmody.com/vs/tt0084602
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ugGJVXgRNLcJwmPpSCX5PjBSlde.jpg" group-title="Filmler",ROCKY 4 1985
+https://vidmody.com/vs/tt0089927
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/A3mXbsffntnPK4alcLtPcA4sXe8.jpg" group-title="Filmler",ROCKY 5 1990
+https://vidmody.com/vs/tt0100507
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/24UH3gPeyC3AW4VUrd6GZ6ksHwM.jpg" group-title="Filmler",ROCKY BALBOA 2006
+https://vidmody.com/vs/tt0479143
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6HVSgUw3QkJH1WpwANqHWdzQ0yG.jpg" group-title="Filmler",ROGUE ONE: BIR STAR WARS HIKAYESI
 https://vidmody.com/vs/tt3748528
 #EXTINF:-1 tvg-name="Roman Tv" group-title="CanliTV",ROMAN TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/roman-tv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8q4V1AhFhI0Jsqjr0Jr7zeOQJNq.jpg" group-title="Filmler",ROMEO ÖLMELI 2000
+https://vidmody.com/vs/tt0165929
 #EXTINF:-1 tvg-id="RTBAneka.bn@SD" tvg-logo="https://i.imgur.com/MY40GrC.png" group-title="General",RTB ANEKA
 https://d1211whpimeups.cloudfront.net/smil:rtb2/playlist.m3u8
 #EXTINF:-1 tvg-id="RTGTV.ru@SD" tvg-logo="https://i.imgur.com/ZMKPAho.png" group-title="Travel",RTG TV
@@ -1229,6 +1489,8 @@ https://rumble-foxo.cdn.rumble.cloud/live/hr6yv36f/slot-4/mxtm-wdfe_1080p/chunkl
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/rudaw-tv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/c9HfIyBGUxhItJcsBp8HYdXGOLD.jpg" group-title="Filmler",RÜZGARLA KONUŞANLAR 2002
 https://vidmody.com/vs/tt0245562
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/rsVsY2Ts/1767809228292.png",S TV
+http://cdn-stv.yayin.com.tr/stv/stv/playlist.m3u8
 #EXTINF:-1,SAGLIK CHANEL
 https://live.euromediacenter.com/saglikchannel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/orY4PX3TNFdCbdVwhKY32UKMvoA.jpg" group-title="Filmler",SAKLAMBAÇ 2005
@@ -1249,8 +1511,8 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d91
 http://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Semerkand Tv" group-title="CanliTV",SEMERKAND TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/semerkand-tv
-#EXTINF:-1 tvg-name="Ses Tv" group-title="CanliTV",SES TV
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/ses-tv
+#EXTINF:-1 group-title="Yerel" tvg-logo="https://assets.uzunmuhalefet.com/logos/d0df6ded-7fc0-411f-92be-7b4a6f2a3445.png" tvg-url="https://www.serhattv.com.tr/" tvg-id="",SERHAT TV
+https://streams.uzunmuhalefet.com/stream/7eebfc81-7667-49f0-9cc8-94e05ce24be2.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/peYpB3eRyrmVVvBCGOPr5Wdxx03.jpg" group-title="Filmler",SHAZAM 1 2019
 https://vidmody.com/vs/tt0448115
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/sPJ561hs7GcV2Ebi3vgE9dtiMSQ.jpg" group-title="Filmler",SHAZAM 2 2023
@@ -1263,6 +1525,8 @@ https://vidmody.com/vs/tt1515091
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/show-max-canli
 #EXTINF:-1 tvg-name="SHOW MAX" group-title="ULUSAL",SHOW MAX
 http://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8
+#EXTINF:-1 tvg-logo="http://epg.one/img2/9131.png",SHOW PLUS TV
+https://rtmp.showplus.tv/hls/myshow.m3u8
 #EXTINF:-1 tvg-name="Show Tv" group-title="CanliTV",SHOW TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/showtv-canli
 #EXTINF:-1 tvg-id="SHOW TV" tvg-name="SHOW TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_of_Show_TV.png" group-title="GENEL",SHOW TV
@@ -1299,6 +1563,10 @@ https://vidmody.com/vs/tt0290095
 https://vidmody.com/vs/tt0272020
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/g0S29nH9G40rGognyqDawc3W1Ql.jpg" group-title="Filmler",SON SAMURAY LAST SAMURAI
 https://vidmody.com/vs/tt0325710
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3PzmeohZ7EmXWx4SVDJFBxhJG7t.jpg" group-title="Filmler",SON SAVAŞÇI CENTURION 2010
+https://vidmody.com/vs/tt1020558
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/s9qnGoyNU307qJLJvCBs73yemgE.jpg" group-title="Filmler",SON TANIK THE EXPATRIATE ERASED 2012
+https://vidmody.com/vs/tt1645155
 #EXTINF:-1 tvg-name="Sony Channel Türkiye" group-title="CanliTV",SONY CHANNEL TÜRKIYE
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/sony-channel-turkiye
 #EXTINF:-1 tvg-name="Sony Mutfak" group-title="CanliTV",SONY MUTFAK
@@ -1307,20 +1575,24 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/sony-mutf
 https://vidmody.com/vs/tt0365929
 #EXTINF:-1 tvg-name="Space Tv" group-title="CanliTV",SPACE TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/space-tv
+#EXTINF:-1 tvg-logo="http://epg.one/img2/2553.png",SPACE TV
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/space-tv.m3u8
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",SPIDERMAN FAR FROM HOME EVE DÖNÜŞ
 https://s4.imagescdns.pics/m6/H3OcMTIlYx1uov5TLKVhMaWioF5Vo21yYwVjZGxhDzk1pzS5YwRjBQOjYxEIDHjd0zxnJ1uM2ImL2Ehpl5jnJAms0xi4vr1
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",SPIDERMAN HOMECOMING
 https://s24.imagehub.pics/mn/H3OcMTIlYH1uov5Vo21yL29gnJ5aYwVjZGphDzk1pzS5YwRjBQOjYxEIDHjd0zxnJ1uM2IbqJVhpTywpjs0xi24vr1
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",SPIDERMAN NO WAY HOME
 https://s26.imglink.pro/mv/H3OcMTIlYH1uov5Bol5KLKxhFT9gMF4lZQVkYxWfqKWurF4kZQtjpP5RIHRd0zxnJ1aoTyhnl5jpz8s0xi26vr1b2160
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/eAkXjfOKTgQ37dr60jXcNwxjax4.jpg" group-title="Filmler",SPIDERWICK GÜNCELERI 2008
+https://vidmody.com/vs/tt0416236
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Music",SPIRIT TV MUSIC
+https://cdnlive.myspirit.tv/LS-ATL-43240-2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="Sports Tv" group-title="CanliTV",SPORTS TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/sports-tv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/cIQ2MCby9nTDmCg13RWizgQOhn6.jpg" group-title="Filmler",STAJYER 2015
 https://vidmody.com/vs/tt2361509
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/star-tv-tr.png" group-title="TURK HD+ LINE",STAR TV
 https://dogus.daioncdn.net/startv/startv.m3u8?ce=3&app=1740db13-3ee9-4858-8d2c-b1a9cfaa3718
-#EXTINF:-1 tvg-name="Star Tv" group-title="CanliTV",STAR TV
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/startvcanli-yayin
 #EXTINF:-1 tvg-id="STAR TV" tvg-name="STAR TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTODT1C4SB518JljOlb7etd8VRmpGQJSyiFVw&s" group-title="GENEL",STAR TV
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?sig=cc68fc2b65324f67e9c8ee2e9d56d1db&sid=7ukqybd3tddq&app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="YEDEKLER",STAR TV
@@ -1343,12 +1615,16 @@ https://vidmody.com/vs/tt2527336
 https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="7/24 Yayın",STREAM CITY
 http://iptv.prosto.tv:7000/ch321/video.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/aNk1X15NaqY6Mcw15kkgxD1C53V.jpg" group-title="Filmler",SUIKAST TRENI BULLET TRAIN 2022
+https://vidmody.com/vs/tt12593682
 #EXTINF:-1 tvg-id="SunRTV.tr@SD" tvg-logo="https://i.imgur.com/64tph9N.png" group-title="Undefined",SUN RTV
 https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3j9LwKmqDSA47v9zlWAjwfkwFRU.jpg" group-title="Filmler",SUPER 8 2011
 https://vidmody.com/vs/tt1650062
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8rTcpPiet2Lt2uZXBFIH5U7ylBY.jpg" group-title="Filmler",SUÇ ORTAĞI 2012
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8rTcpPiet2Lt2uZXBFIH5U7ylBY.jpg" group-title="Filmler",SUÇ ORTAĞI STOLEN 2012
 https://vidmody.com/vs/tt1656186
+#EXTINF:-1 tvg-id="SyriaTV.tr" tvg-logo="https://i.imgur.com/FjuVuXF.jpeg" group-title="Yurt Disi",SYRIA TV
+https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-name="Sözcü Tv" group-title="CanliTV",SÖZCÜ TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/sozcu-tv-canli
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ufXPD9rlYBI9XsuIQiMhlvRLmp9.jpg" group-title="Filmler",SÜPER KÖPEK
@@ -1365,6 +1641,8 @@ https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8?sid=DLMxZmNUkE--5TYdUlidYg
 https://archive.org/download/turkcefilmler/Tatil%20Zaman%C4%B1%20-%20Vacation%20%282015%29%20T%C3%BCrk%C3%A7e%20Dublaj.mp4
 #EXTINF:-1 tvg-name="TAY TV" group-title="ULUSAL",TAY TV
 http://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8
+#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/OeAJ5Mr.png" group-title="Undefined",TAY TV
+https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/g7unUAXXZQf8nsLmKOItJbnUJVM.jpg" group-title="Filmler",TAŞIYICI 1 2002 [JS]
 https://pixeldrain.com/api/file/gCX8vGqZ?=.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ivB9XX1QEZ1DO3wQDuIKaSMkyNO.jpg" group-title="Filmler",TAŞIYICI 2 2005 [JS]
@@ -1375,6 +1653,8 @@ https://pixeldrain.com/api/file/2D9iza35?=.mp4
 https://vidmody.com/vs/tt2938956
 #EXTINF:-1 tvg-id="TBMMTV.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/960px-TBMM_TV_logo.svg.png" group-title="Undefined",TBMM TV
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Undefined",TBMM TV
+https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
 #EXTINF:-1 tvg-name="Tek Rumeli Tv" group-title="CanliTV",TEK RUMELI TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/tek-rumeli-tv
 #EXTINF:-1 tvg-id="Tele1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png" group-title="Undefined",TELE 1
@@ -1403,6 +1683,18 @@ https://vidmody.com/vs/tt0438488
 https://vidmody.com/vs/tt6450804
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gLxd7GCP/MG-7223.jpg" group-title="Filmler",TERS YUZ
 https://s25.imglink.info/mk/ITIlpl5MqKbhFJ5mnJEyYx91qP4lZQR1YwRjBQOjYxE1LJjd0zxnJ1aoTyhnl5cozMis0xi25vr1
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/btpA4hIEVctXHmoH4RMYT5ShSsG.jpg" group-title="Filmler",TETIKÇI 1993
+https://vidmody.com/vs/tt0108171
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bLIlzTEsK7GE1RzYLp0n4Oom7wJ.jpg" group-title="Filmler",TETIKÇI CRANK 2 2009
+https://vidmody.com/vs/tt1121931
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jX9OTXpXlvEIGp9jp9kGhMqlTnE.jpg" group-title="Filmler",TETIKÇI CRANK 2006
+https://vidmody.com/vs/tt0479884
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/41rqc5t1Ye3k9iNey1pxYJQuooF.jpg" group-title="Filmler",TETIKÇI FREELANCE 2023
+https://vidmody.com/vs/tt15744298
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qqNHuuw5OBiyWUMh1xyTPSIO2lA.jpg" group-title="Filmler",TETIKÇI SHOOTER 2007
+https://vidmody.com/vs/tt0822854
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/td0XwWq72frXh4crgbifYP3dz99.jpg" group-title="Filmler",TETIKÇILER LOOPER 2012
+https://vidmody.com/vs/tt1276104
 #EXTINF:-1 tvg-name="TEVE2" tvg-id="Teve2.tr" tvg-logo="https://i.ibb.co/JRpJc2P/teve2.png" group-title="ULUSAL",TEVE 2
 https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_4_1000/playlist.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="TEVE2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/teve2-tr.png" group-title="TURK HD+ LINE",TEVE2
@@ -1411,8 +1703,8 @@ https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2_1080p.m3u8
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/teve2-canli-izle
 #EXTINF:-1 tvg-name="TEVE2" group-title="ULUSAL",TEVE2
 http://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8
-#EXTINF:-1 tvg-name="TGRT Belgesel" group-title="CanliTV",TGRT BELGESEL
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/tgrt-belgesel
+#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/rsoSLih.png" group-title="Undefined",TEVE2
+https://teve2vod.duhnet.tv/S12/HLS_VOD/382843_2e5b/index.m3u8
 #EXTINF:-1 tvg-name="TGRT EU" group-title="CanliTV",TGRT EU
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/tgrt-eu
 #EXTINF:-1 tvg-id="TGRTHaber.tr@SD" tvg-logo="https://i.imgur.com/PrxwKDw.png" group-title="News",TGRT HABER
@@ -1425,6 +1717,8 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/tgrthaber
 https://edge1.socialsmart.tv/turkhaber/bant1/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/HfCkGm9Y/MG-7227.jpg" group-title="Filmler",THE EQUALIZER 1
 https://filmarsivi.yusufdkci1.workers.dev/?ID=adalet-1
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/doELeR7XdrjO0yogB11D00TEoSQ.jpg" group-title="Filmler",THE ISLAND ADA 2005
+https://vidmody.com/vs/tt0399201
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jYnedFgdnN62QXE8HAPVtQKNFFm.jpg" group-title="Filmler",THE OLD WAYS 2021
 https://vidmody.com/vs/tt12829958
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",TITANLARIN SAVAŞI 2010
@@ -1459,6 +1753,8 @@ https://vidmody.com/vs/tt1365519
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
 #EXTINF:-1,TOP POP TV
 https://tvsms.club/tvz.php?kanal=toppop&file=.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jZZFVACK0slejQOV42UcBnOFF11.jpg" group-title="Filmler",TORONTOLU ADAM 2022
+https://vidmody.com/vs/tt11671006
 #EXTINF:-1 tvg-id="TrabzonBuyuksehirBelediyesiTV.tr@FHD" tvg-logo="https://tbbweb.tv/img/logo.png" group-title="Undefined",TRABZON BUYUKSEHIR BELEDIYESI TV
 https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8
 #EXTINF:-1 tvg-name="TRACE SPORT" group-title="ULUSAL",TRACE SPORT
@@ -1485,6 +1781,8 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/trt1-canl
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/trt2canlihd
 #EXTINF:-1 group-title="Spor" tvg-logo="https://assets.uzunmuhalefet.com/logos/c7b11f89-a897-47f2-90b8-961928bc0521.png" tvg-url="https://www.trt.net.tr/" tvg-id="TRT3.tr",TRT 3 SPOR
 https://streams.uzunmuhalefet.com/stream/82cce5b2-d998-4108-85d8-db0728722c4a
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Undefined",TRT 4K
+http://96a6b6a3.ottolok.net/iptv/URFPS4QVV53QPF/4001/index.m3u8
 #EXTINF:-1 tvg-id="TRTArabi.tr@SD" tvg-logo="https://i.imgur.com/dEfI2M9.png" group-title="News",TRT ARABI
 https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="TRT Arapça" group-title="CanliTV",TRT ARAPÇA
@@ -1513,8 +1811,6 @@ https://tv-e-okul02.medya.trt.com.tr/master.m3u8
 https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="TRT Eba Tv İlkokul" group-title="CanliTV",TRT EBA TV İLKOKUL
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/eba-tv-ilkokul
-#EXTINF:-1 tvg-name="TRT Eba Tv Lise" group-title="CanliTV",TRT EBA TV LISE
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/eba-tv-lise
 #EXTINF:-1 tvg-name="TRT Eba Tv Ortaokul" group-title="CanliTV",TRT EBA TV ORTAOKUL
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/eba-tv-ortaokul
 #EXTINF:-1 tvg-name="TRT GENÇ" group-title="ULUSAL",TRT GENÇ
@@ -1579,12 +1875,16 @@ https://tv100.daioncdn.net/tv100/tv100_1080p.m3u8?app=web
 https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
 #EXTINF:-1,TV 264
 https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8?md5=qb_9l3erQIDqZMjbKfALzA&expires=1651666386
+#EXTINF:0 tvg-country="TR" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/1833de69-91f4-4624-afa1-dc2121adf8ea.png" group-title="Undefined",TV 264 SAKARYA
+https://mc1.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv 360" group-title="CanliTV",TV 360
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/tv-360
 #EXTINF:-1 tvg-name="TV 4" tvg-id="TV4.tr" tvg-logo="https://i.postimg.cc/FKkHW8KK/tv4.png" group-title="ULUSAL",TV 4
 https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
 #EXTINF:-1,TV 41
 https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
+#EXTINF:-1 group-title="Yerel" tvg-logo="https://assets.uzunmuhalefet.com/logos/6c3eb41b-4957-4295-8502-8088e9754ee1.png" tvg-url="https://www.tv52.com.tr/" tvg-id="TV52.tr",TV 52
+https://streams.uzunmuhalefet.com/stream/89dd70d5-1028-4426-9df5-cc86d4d230fa.m3u8
 #EXTINF:-1,TV 52
 https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="TV8.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png" group-title="General",TV 8
@@ -1625,10 +1925,16 @@ https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?sig=9a72d1716d1a0f0d17fc09ee7671a7ab
 http://149.13.0.66:4002/tv8hd
 #EXTINF:-1 tvg-name="TV8" group-title="ULUSAL",TV8
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8.m3u8
+#EXTINF:-1 tvg-id="TV8.tr" tvg-logo="http://assets.tvcdn.net/f91342d2-bcae-4ee0-a6f8-76a8d32b891b.png" group-title="Ulusal",TV8
+https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788
+#EXTINF:-1 tvg-logo="https://i.ibb.co/dgj3MTh/tv85.png" group-title="Ulusal,TV8 5
+https://tv8.daioncdn.net/tv8bucuk/tv8bucuk.m3u8?app=tv8bucuk_web
 #EXTINF:-1 tvg-name="Tv8 İnt" group-title="CanliTV",TV8 İNT
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/tv8intcanli
 #EXTINF:-1 tvg-id="TV8.5" tvg-name="TV8.5" tvg-logo="https://tv.canlitvme.com/poster/tv8-5.png" group-title="GENEL",TV8.5
 https://tv8.daioncdn.net/tv8bucuk/tv8bucuk_720p.m3u8?sig=3e1e7e77bd21da485aa2c59a649bcb17&sid=6t07ysfz9eyd&app=bf58ab52-4865-4c81-b223-26b41009801e&ce=3
+#EXTINF:-1 tvg-name="TVDEN" group-title="ULUSAL",TVDEN
+https://canli.tvden.com.tr/hls/live.m3u8
 #EXTINF:-1 tvg-name="TvEM" group-title="CanliTV",TVEM
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/tvem
 #EXTINF:-1 tvg-name="TVNET" group-title="CanliTV",TVNET
@@ -1637,6 +1943,8 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/tvnet
 https://tytturk-live.ercdn.net/tytturk/tytturk_1080p.m3u8
 #EXTINF:-1 tvg-id="TurkHaberTV.tr@SD" tvg-logo="https://i.imgur.com/2AcRKdL.png" group-title="News",TÜRKHABER
 https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
+#EXTINF:-1 group-title="Yerel" tvg-logo="https://assets.uzunmuhalefet.com/logos/87f43976-ee83-41ac-a187-0c30c434f7c3.png" tvg-url="https://www.turkhabertv.com/" tvg-id="TurkHaber.tr",TÜRKHABER TV
+https://streams.uzunmuhalefet.com/stream/335a70f2-e7fb-4012-99f9-a4014c305140.m3u8
 #EXTINF:-1 tvg-name="Türkmen Sport" group-title="CanliTV",TÜRKMEN SPORT
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/turkmen-sport
 #EXTINF:-1,TÜRKMENELİ TV
@@ -1645,15 +1953,19 @@ https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb1
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/ulusal-kanal
 #EXTINF:-1 tvg-id="UrfaNatikTV.tr@SD" tvg-logo="https://i.imgur.com/8KO0uxn.png" group-title="Undefined",URFA NATIK TV
 https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="News",UYGUR TV NEWS
+https://592f1881b3d5f.streamlock.net:1443/santraltv_742/santraltv_742/chunklist_w1333397898.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/NUdRZg6owW3Hxqydy0Q0yMISAm.jpg" group-title="Filmler",UYUMSUZ 2014
 https://vidmody.com/vs/tt1840309
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/cciVsEOOxVDcqwbXSwWgRcaIPxz.jpg" group-title="Filmler",UYUMSUZ 3 YANDAŞ 2020
 https://vidmody.com/vs/tt9148706
 #EXTINF:-1 tvg-name="Uçankuş Tv" group-title="CanliTV",UÇANKUŞ TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/ucankus-tv
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",V1ASTERIKS VE OBURIKS 2
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8TdKoUqD6ccqGa6tNXwLMmAMjl7.jpg" group-title="Filmler",UÇUŞ PLANI FLIGHTPLAN 2005
+https://vidmody.com/vs/tt0408790
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2lC9lzozlzVxCsSgPjRz5AWcz00.jpg" group-title="Filmler",V1ASTERIKS VE OBURIKS 2
 https://filmarsivi.yusufdkci1.workers.dev/?ID=v1asteriks-ve-oburiks-2
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",V2ASTERIKS VE OBURIKS 2
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2lC9lzozlzVxCsSgPjRz5AWcz00.jpg" group-title="Filmler",V2ASTERIKS VE OBURIKS 2
 https://filmarsivi.yusufdkci1.workers.dev/?ID=v2asteriks-ve-oburiks-2
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lvWCJvI8xVM7hbpaXtXXG4clKFm.jpg" group-title="Filmler",VAHŞETIN ÇAĞRISI 2020
 https://vidmody.com/vs/tt7504726
@@ -1661,6 +1973,8 @@ https://vidmody.com/vs/tt7504726
 https://vidmody.com/vs/tt4844148
 #EXTINF:-1 tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/yabanci_sinema.png" group-title="Filmler",VAHŞI ROBOT THE WILD ROBOT 2024
 https://vidmody.com/vs/tt29623480
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pv8Whxtaw53cVhlfXA22HLKky67.jpg" group-title="Filmler",VAHŞI VAHŞI BATI
+https://vidmody.com/vs/tt0120891
 #EXTINF:-1,VAN GOLU TV
 https://cdn1-vangolutv.yayin.com.tr/vangolutv/amlst:vangolutv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/giIpiqAeU7hHzmwAP3P0MtfkOyi.jpg" group-title="Filmler",VANGUARD 2020
@@ -1675,6 +1989,8 @@ https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.
 https://thema-vivekanald-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1,VIYANA TV
 http://nrttn172.kesintisizyayin.com:29010/nrttn/nrttn/playlist.m3u8
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Undefined",VOX AFRICA
+https://1494836162.rsc.cdn77.org/LS-PRG-59570-1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://bit.ly/302Lfmo" group-title="SPOR",VPN BEINSPORT HABER UHD
 http://apx-me.com:8880/live/live:persian_share/Hs6guU9ziF/48894.ts
 #EXTINF:-1,VUSLAT TV
@@ -1683,6 +1999,8 @@ https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
 https://vidmody.com/vs/tt6565702
 #EXTINF:-1 tvg-name="Xezer Tv" group-title="CanliTV",XEZER TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/xezer-tv
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/X%C9%99z%C9%99r_TV_loqosu_%282023%29.png/1200px-X%C9%99z%C9%99r_TV_loqosu_%282023%29.png",XƏZƏR TV
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/xezer-tv.m3u8
 #EXTINF:-1 tvg-name="Yaban Tv" group-title="CanliTV",YABAN TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/yaban-tv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8yzQPRWlZndo7npFaicsZ3GCazc.jpg" group-title="Filmler",YAKIN TEHDIT TRESPASS 2011
@@ -1695,15 +2013,21 @@ https://vidmody.com/vs/tt1964418
 https://vidmody.com/vs/tt9777666
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/iDazppeUB9ju9RySOJMKUq7HlLK.jpg" group-title="Filmler",YARININ SINIRINDA 2014 ÇALIŞMIYOR
 https://vidmody.com/vs/tt1631867
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7MLtBv1A39X30wkYt38dbt1iU52.jpg" group-title="Filmler",YASAK KRALLIK 2008
+https://vidmody.com/vs/tt0865556
 #EXTINF:-1 tvg-name="Yat Tv" group-title="CanliTV",YAT TV
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/yat-tv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qyVjYHuWYoGvD5suel5jO7yo6I9.jpg" group-title="Filmler",YEDEK POLISLER 2010
 https://vidmody.com/vs/tt1386588
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2gMCokqpIJoh6u5o06LlOZWsI3k.jpg" group-title="Filmler",YENILMEZ 2 2006
+https://vidmody.com/vs/tt0443676
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",YENILMEZ 3
 https://ia802801.us.archive.org/2/items/yenilmez3undisputed3turkcedublajyabanciaksiyondramfilmifullfilmizlehd/Yenilmez%203%20%28Undisputed%203%29%20-%20T%C3%BCrk%C3%A7e%20Dublaj%20Yabanc%C4%B1%20Aksiyon_Dram%20Filmi%20-%20Full%20Film%20%C4%B0zle%20%28HD%29.mp4
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",YEŞIL DEV - HULK 1 2003
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7QGdIJWWTkPhVjpQ0zA6z69khod.jpg" group-title="Filmler",YENILMEZ 4 2016
+https://vidmody.com/vs/tt3344680
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/UllIft2jLSBaay3zQyMV4GNdfy.jpg" group-title="Filmler",YEŞIL DEV - HULK 2003
 https://vidmody.com/vs/tt0286716
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",YEŞIL DEV - HULK 2 2008
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gKzYx79y0AQTL4UAk1cBQJ3nvrm.jpg" group-title="Filmler",YEŞIL DEV - HULK 2008
 https://vidmody.com/vs/tt0800080
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qfkAPdspjXPSyjq5HZw5rewZo18.jpg" group-title="Filmler",YEŞIL FENER 2011
 https://vidmody.com/vs/tt1133985
@@ -1727,17 +2051,17 @@ https://vidmody.com/vs/tt0080684
 https://vidmody.com/vs/tt0086190
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/s2V5cc7S1bun7pHXw48nWt4BAh1.jpg" group-title="Filmler",YILDIZ SAVAŞLARI: YENI UMUT
 https://vidmody.com/vs/tt0076759
-#EXTINF:-1 tvg-logo="https://i.ibb.co/KjsvHSLW/MG-7007.jpg" group-title="Filmler",YOL ARKADAŞIM 1
+#EXTINF:-1 tvg-logo="https://i.ibb.co/KjsvHSLW/MG-7007.jpg" group-title="Filmler",YOL ARKADAŞIM 1 2016
 https://ia601707.us.archive.org/24/items/yol-arkadasim/Yol%20Arkada%C5%9F%C4%B1m.ia.mp4
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",YOL ARKADAŞIM 2
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mAaT4gqrvwGpvZ29dvpgkb8esTf.jpg" group-title="Filmler",YOL ARKADAŞIM 2 2018
 https://filmarsivi.yusufdkci1.workers.dev/?ID=yol-arkadasim-2
-#EXTINF:-1 tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/yabanci_sinema.png" group-title="Filmler",YÜZÜKLERIN EFENDISI 1 YÜZÜK KARDEŞLIĞI 2001
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/37kdeAEyw8YlVLaAhYazBRAni9S.jpg" group-title="Filmler",YÜZÜKLERIN EFENDISI 1 YÜZÜK KARDEŞLIĞI 2001 THE LORD OF THE RINGS
 https://vidmody.com/vs/tt0120737
-#EXTINF:-1 tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/yabanci_sinema.png" group-title="Filmler",YÜZÜKLERIN EFENDISI 2 İKI KULE 2002
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/AaiH8Yocbg0VMfs0PyXJTJbWrp2.jpg" group-title="Filmler",YÜZÜKLERIN EFENDISI 2 İKI KULE 2002 THE LORD OF THE RINGS
 https://vidmody.com/vs/tt0167261
-#EXTINF:-1 tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/yabanci_sinema.png" group-title="Filmler",YÜZÜKLERIN EFENDISI 3 KRALIN DÖNÜŞÜ 2003
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qwigzi0gOcXZRxbm488wT31t2UZ.jpg" group-title="Filmler",YÜZÜKLERIN EFENDISI 3 KRALIN DÖNÜŞÜ 2003 THE LORD OF THE RINGS
 https://vidmody.com/vs/tt0167260
-#EXTINF:-1 tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/yabanci_sinema.png" group-title="Filmler",YÜZÜKLERIN EFENDISI: ROHIRRIM'IN SAVAŞI 2024
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5htr97RScFopnkxyW1eBtsMsFXb.jpg" group-title="Filmler",YÜZÜKLERIN EFENDISI: ROHIRRIM'IN SAVAŞI 2024
 https://vidmody.com/vs/tt14824600
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6gn9OrxZ94LuoxY9u3xZaFVzzC8.jpg" group-title="Filmler",ZAFER GLORY 1989
 https://vidmody.com/vs/tt0097441
@@ -1767,6 +2091,8 @@ https://vidmody.com/vs/tt1107365
 https://vidmody.com/vs/tt1646926
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4wPGVI6DpTju8vodJlnvS4oZAXm.jpg" group-title="Filmler",ÇILGIN DOSTLAR OPEN SEASON 2006
 https://vidmody.com/vs/tt0400717
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/kdFs83qjgBlqRVrEFii9C5pzWaG.jpg" group-title="Filmler",ÇILGIN JOE 2013
+https://vidmody.com/vs/tt1893256
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hbjIccIjA4XpiOBtDdtoYAen062.jpg" group-title="Filmler",ÇIN FALI 2012
 https://vidmody.com/vs/tt1424310
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hrIk2VD6vzt8Eb3iGWNOCheEOtT.jpg" group-title="Filmler",ÇIN SEDDI
@@ -1809,15 +2135,19 @@ https://vidmody.com/vs/tt2398241
 https://vidmody.com/vs/tt2958484
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/xKD6XFc83xLMRVUMPOyd4DEhABU.jpg" group-title="Filmler",ŞIRINLER: YENI YIL ŞARKISI
 https://vidmody.com/vs/tt2062677
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/J0xx5G4C/In-Shot-20250324-081151799.png",ŞİRVAN TV
+https://a8.radyotelekom.com.tr:3326/stream/play.m3u8
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="7/24 Yayın",ŞÖMİNE
 http://iptv.prosto.tv:7000/ch331/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5FGW46MSMZJ50cIfErFRWKaCMJD.jpg" group-title="Filmler",ŞÜPHE 2007
 https://vidmody.com/vs/tt0486822
+#EXTINF:0 tvg-country="AL;AM;BG;DK;FI;FR;GE;DE;GR;HU;IT;NO;PT;RS;ES;SE;CH;TR;UA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" group-title="General;FRANCE;ITALY;SPAIN",РТР ПЛАНЕТА ЕВРО
+https://player.smotrim.ru/iframe/stream/live_id/4941
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",☢️☢️DENEME⚠️⚠️
 https://drive.google.com/uc?export=download&id=1xmWSqemUQoMI_nGqC2DFUPPg02DhkChO
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Belgesel",🍀☘️BELGESELLER🍀☘️
 https://videos.pexels.com/video-files/31091800/13285423_1920_1080_30fps.mp4?=.mpg
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",🍿🎬FILMLER🍿🎬
+#EXTINF:-1 tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/yabanci_sinema.png" group-title="Filmler",🍿🎬FILMLER🍿🎬
 https://videos.pexels.com/video-files/30602012/13102656_1440_2560_30fps.mp4?=.mpg
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/i21k4te.png" group-title="Filmler",🚨🚨DENEME🔴🔴
 https://drive.google.com/uc?id=1xmWSqemUQoMI_nGqC2DFUPPg02DhkChO
