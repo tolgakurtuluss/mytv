@@ -256,9 +256,9 @@ Mytv is a powerful Python script designed to manage and validate M3U (IPTV) play
 2.  **Run the script:** Execute `python xdxd.py` (or your script name).
 3.  **Get `filtered.m3u`:** A new `filtered.m3u` file will be generated in the same directory, containing all the validated and optimized streams.
 
-## 🔗 Download Your Filtered M3U List
+## 🔗 Download Filtered M3U List
 
-Click here to download the latest `filtered.m3u` playlist
+Access the latest `filtered.m3u` playlist -> [https://getir.net/ui3k](https://getir.net/ui3k) 
 
 """
     with open(README_FILE, "w", encoding="utf-8") as f:
