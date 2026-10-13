@@ -7,3 +7,4 @@ https://raw.githubusercontent.com/tamersariii/Turkeym3uList/refs/heads/main/Turk
 https://raw.githubusercontent.com/itasli/TURKTV/refs/heads/master/index.m3u
 https://raw.githubusercontent.com/elizaderehim67-ai/m3u-turk/refs/heads/main/Rahim1223.m3u
 https://raw.githubusercontent.com/tolgakurtuluss/mytv/refs/heads/main/temp/list.m3u
+https://gist.githubusercontent.com/ByteFixRepairs/194e9e3a08075befa1703f02d4af82ad/raw/ByteFixRepairsTurkIPTV.m3u
