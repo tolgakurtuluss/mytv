@@ -16,9 +16,9 @@ Mytv is a powerful Python script designed to manage and validate M3U (IPTV) play
 
 ##  Current Statistics
 
--   📥 Total input streams processed: **1823**
--   ✅ Working and validated streams: **552**
--   ⚡ Average response time for working streams: **0.85s**
+-   📥 Total input streams processed: **1817**
+-   ✅ Working and validated streams: **547**
+-   ⚡ Average response time for working streams: **0.57s**
 
 ## ⚙️ How to Use
 
