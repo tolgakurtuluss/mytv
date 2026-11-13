@@ -7,3 +7,10 @@ https://raw.githubusercontent.com/itasli/TURKTV/refs/heads/master/index.m3u
 https://raw.githubusercontent.com/elizaderehim67-ai/m3u-turk/refs/heads/main/Rahim1223.m3u
 https://raw.githubusercontent.com/tolgakurtuluss/mytv/refs/heads/main/temp/list.m3u
 https://gist.githubusercontent.com/ByteFixRepairs/194e9e3a08075befa1703f02d4af82ad/raw/ByteFixRepairsTurkIPTV.m3u
+https://raw.githubusercontent.com/IvanStoilov2/iptv/refs/heads/main/bg.m3u
+https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/TV.m3u8
+https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/base.m3u8
+https://raw.githubusercontent.com/GSHDapk/gshdbest.m3u/refs/heads/main/netspor.m3u
+https://raw.githubusercontent.com/mooncrown04/m3ubirlestir/refs/heads/main/birlesik_diziler.m3u
+https://raw.githubusercontent.com/mooncrown04/m3ubirlestir/refs/heads/main/birlesik_sinema.m3u
+https://raw.githubusercontent.com/mooncrown04/m3ubirlestir/refs/heads/main/birlesik_tv.m3u
