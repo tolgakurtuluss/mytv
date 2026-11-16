@@ -5,7 +5,6 @@ https://raw.githubusercontent.com/Yusufdkci/iptv/main/liste.m3u
 https://raw.githubusercontent.com/edanuralkan2346-boop/kanallar.m3u/refs/heads/main/t%C3%BCrkkanallar%C4%B1.m3u
 https://raw.githubusercontent.com/itasli/TURKTV/refs/heads/master/index.m3u
 https://raw.githubusercontent.com/elizaderehim67-ai/m3u-turk/refs/heads/main/Rahim1223.m3u
-https://raw.githubusercontent.com/tolgakurtuluss/mytv/refs/heads/main/temp/list.m3u
 https://gist.githubusercontent.com/ByteFixRepairs/194e9e3a08075befa1703f02d4af82ad/raw/ByteFixRepairsTurkIPTV.m3u
 https://raw.githubusercontent.com/IvanStoilov2/iptv/refs/heads/main/bg.m3u
 https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/TV.m3u8
@@ -14,3 +13,15 @@ https://raw.githubusercontent.com/GSHDapk/gshdbest.m3u/refs/heads/main/netspor.m
 https://raw.githubusercontent.com/mooncrown04/m3ubirlestir/refs/heads/main/birlesik_diziler.m3u
 https://raw.githubusercontent.com/mooncrown04/m3ubirlestir/refs/heads/main/birlesik_sinema.m3u
 https://raw.githubusercontent.com/mooncrown04/m3ubirlestir/refs/heads/main/birlesik_tv.m3u
+https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/Worldwide/LiveTV.m3u
+https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/Turkey/LiveTV.m3u
+https://raw.githubusercontent.com/edhhat/m3u/refs/heads/main/all.m3u
+https://iptv-org.github.io/iptv/countries/us.m3u
+https://raw.githubusercontent.com/clseibold/tubi-m3u/refs/heads/main/tubi_playlist_us.m3u
+https://raw.githubusercontent.com/aceray50/iptv/refs/heads/main/tv.m3u
+https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/thetvapp.m3u8
+https://raw.githubusercontent.com/HelmerLuzo/PlutoTV_HL/refs/heads/main/tv/m3u/PlutoTV_tv_US.m3u
+https://raw.githubusercontent.com/Efeisot/iptv/refs/heads/main/index.m3u
+https://raw.githubusercontent.com/ilyswch/IPTV-TR/refs/heads/main/index.m3u
+https://raw.githubusercontent.com/ilyswch/IPTV-TR/refs/heads/main/box.m3u
+https://raw.githubusercontent.com/ilyswch/IPTV-TR/refs/heads/main/box2.m3u
